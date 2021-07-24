@@ -1,0 +1,175 @@
+.ebaySummary {
+  table {
+
+    th, td {
+      text-align: center;
+    }
+
+    td:first-child {
+      padding: 0 0 0 20px;
+    }
+
+    .info {
+      display: flex;
+      padding: 24px 14px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        fill: #005C81;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: #005C81;
+        font: 400 14px Poppins;
+      }
+    }
+  }
+
+  .property-form-wrapper {
+    padding-bottom: 28px !important;
+  }
+
+  .ant-table-pagination {
+    margin-top: 40px !important;
+    z-index: 1;
+    position: relative;
+
+    &-right {
+      justify-content: flex-start;
+    }
+  }
+
+  &-hints {
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-30px);
+  }
+
+  .offer-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ant-tabs-tab {
+    border-bottom: none;
+  }
+
+  .ant-tabs-tab-active {
+    border-bottom: 1px solid #ffffff !important;
+  }
+
+  .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+    border-bottom: none;
+  }
+
+  .ant-tabs-tab-active {
+    border: 1px solid #E3E6EE !important;
+    border-bottom: none !important;
+  }
+
+  .ant-tabs-tab:not(.ant-tabs-tab-active) {
+    border-bottom: 1px solid #E3E6EE !important;
+  }
+
+  .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+    border: none;
+  }
+
+  .ant-tabs-top > .ant-tabs-nav {
+    margin: 0;
+  }
+
+  .ant-tabs-content-holder {
+    border: none;
+    border-radius: 8px;
+  }
+
+  .ant-tabs-top > .ant-tabs-nav::before,
+  .ant-tabs-bottom > .ant-tabs-nav::before,
+  .ant-tabs-top > div > .ant-tabs-nav::before,
+  .ant-tabs-bottom > div > .ant-tabs-nav::before {
+    border-bottom-right-radius: 8px;
+  }
+
+  .ant-table-expanded-row {
+
+    td {
+      border: none !important;
+    }
+  }
+
+  .ant-table-content {
+    border: 1px solid #E3E6EE;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+
+  .ant-table-tbody {
+
+    & > tr {
+      & > td {
+        border-bottom: none;
+        border-top: 1px solid #E3E6EE;
+      }
+    }
+
+    & > tr:first-child {
+
+      & > td {
+        border: none;
+      }
+    }
+  }
+}
+
+.ant-modal-root {
+  table {
+    th, td {
+      text-align: center;
+    }
+
+    th {
+      font: 500 14px Poppins;
+      color: #1C2833;
+    }
+
+    td {
+      font: 400 14px Poppins;
+      color: #495057;
+    }
+
+    tr:last-child {
+      td {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .ant-modal {
+    width: auto !important;
+  }
+
+  .ant-modal-header {
+    border: none;
+  }
+
+  .ant-modal-body {
+    padding-top: 5px;
+  }
+
+  .ant-modal-title {
+    color: #005C81;
+    font: 500 16px Poppins;
+  }
+
+  .ant-modal-close {
+    svg {
+      fill: #1C2833;
+    }
+  }
+}

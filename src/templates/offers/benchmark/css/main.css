@@ -1,0 +1,763 @@
+html, body {
+     margin: 0px;
+     padding: 0px;
+}
+ body {
+     font-family: Poppins !important;
+     background: #ffffff;
+     margin: 0 auto;
+}
+ .offernote {
+     margin-bottom: 10px;
+}
+ .calhide {
+     margin: 0;
+     padding: 0;
+     display: contents;
+}
+ .currentdate img[src=""]:empty~div .calhide {
+     display: none;
+}
+ #hiddencalendar {
+     display: none;
+}
+ #hiddencalendar:empty~div .calhide {
+     display: none;
+}
+ #ouroffer img[src=""] {
+     display: none;
+}
+ .imptext {
+     font-size: 16px;
+     margin: 0;
+}
+ h5 {
+     margin-bottom: 0;
+     margin-top: 15px;
+}
+ #faq, #tandc, #contact, p {
+     margin: 10px 0;
+     color: #000;
+}
+ #faq, #tandc, #contact, h3 {
+     margin-top: 0px;
+     margin-bottom: 0;
+     color: #000;
+}
+ #overview>h4 {
+     margin-bottom: 9px;
+}
+ #ouroffer h3 {
+     margin-bottom: 14px !important;
+}
+ .headline {
+     margin-top: 26px;
+}
+ .sb-page-header-title>p {
+     margin-top: 22px;
+}
+/*faq end*/
+ .cross {
+     padding: 20px;
+     text-align: center;
+}
+ .cross img {
+     width: 165px;
+     height: 230px;
+}
+ .invisible {
+     font-size: 9px;
+     color: #fff;
+     display: none;
+}
+ .brokenimg {
+     visibility: hidden;
+}
+ .maptext {
+     position: absolute;
+     margin: 0px 10px;
+     width: auto;
+}
+ .currentdate img {
+     margin: 12px 0px 0px 0px;
+     float: left;
+}
+ h3, h4 {
+     font-weight: bold;
+}
+ .offerpics {
+     background-color: #e3e3e3;
+     border-bottom: 1px solid #f6f6f3;
+}
+ .sb-page-header-title p {
+     font-weight: 600;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: white;
+     letter-spacing: 9px;
+     margin-bottom: 0px;
+}
+ .maptext p a {
+     color: #fff !important;
+     padding: 5px;
+}
+ .sb-page-header img {
+     width: 100%;
+     height: auto;
+     border-bottom: 1px solid #000;
+     border-top: 1px solid #000;
+}
+ .sb-page-header-title {
+     padding-top: 63px;
+}
+ .sb-page-header-title h1 {
+     background: rgba(205, 103, 28, 0.5);
+     font-weight: 700;
+     text-transform: uppercase;
+     color: white;
+}
+ .container {
+     position: relative;
+     width: 968px;
+     margin: 0 auto;
+     height: auto;
+}
+ .logo_zuzzu img {
+     float: left;
+     padding-top: 25px;
+}
+/*newsletter*/
+ .newsletter {
+     width: 100%;
+     min-height: auto !important;
+}
+ .newletter_inner {
+     width: 85%;
+     margin: 10px auto;
+     background: rgba(0, 0, 0, 0.4);
+     color: #fff;
+     padding: 20px;
+}
+ .footer {
+     background-color: #1ABB9C;
+     padding: 10px;
+     color: #fff;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 20px;
+}
+ .clear {
+     clear: both;
+}
+ .currentdate {
+     text-align: center;
+     width: 200px;
+     position: absolute;
+     padding: 0px 80px;
+     margin: 0px 90px;
+}
+ section {
+     display: block;
+     font-size: 22px;
+     font-weight: 300;
+     line-height: 32px;
+    /* padding: 2em 4em 0;
+    */
+     text-align: center;
+}
+ h1 {
+     font-weight: 300;
+     line-height: 1.3;
+     margin: 0;
+}
+ h2 {
+     font-size: 24px;
+     line-height: 1.3;
+     margin: 0;
+}
+ .clearfix {
+     clear: both;
+}
+ strong {
+     font-size: 14px;
+}
+ em {
+     font-size: 11px;
+}
+ .navbar-brand {
+     color: #FFFFFF;
+}
+ a.navbar-brand:hover {
+     color: #FFFFFF;
+}
+ footer a {
+     color: #BBBBBB;
+}
+ .faqheadline {
+     font-weight: bold;
+     width: 100%;
+     margin-bottom: 5px;
+     margin-top: 13px;
+     float: left;
+     color: #414566;
+}
+ .faqDescription {
+     color: #000;
+     width: 100%;
+     float: left;
+}
+ .tandcHeadline {
+     font-weight: bold;
+     width: 100%;
+     margin-bottom: 5px;
+     margin-top: 15px;
+     float: left;
+     color: #414566;
+}
+ .tandcDesc {
+     width: 100%;
+     float: left;
+     color: #000;
+}
+ .last {
+     margin-right: 0px !important;
+}
+ #tabbed p {
+     font-size: 15px !important;
+}
+ #hide {
+     position: relative;
+     float: left;
+     margin-bottom: 20px;
+     width: 60%;
+}
+ #hide .validity:empty~div.validity1 .period {
+     display: none;
+}
+ .dates {
+     margin-top: 22px;
+}
+ .fromto {
+     position: absolute;
+     margin-top: -21px;
+     font-weight: bold;
+}
+ .validity, .validity1 {
+     width: 100%;
+}
+ .tilte {
+     font-weight: bold;
+}
+ .period {
+     float: left;
+     width: 100%;
+}
+ .periodFrom {
+     float: left;
+     width: 48%;
+     margin-right: 20px;
+}
+ .periodTo {
+     float: left;
+     width: 48% 
+}
+ .secondtab {
+     margin-top: 20px;
+}
+ .innercontent>h4 {
+     margin-bottom: 15px;
+}
+/***************************/
+ .carousel-item {
+     top: 0;
+     border: 1px solid #ccc;
+}
+ .carousel1-item {
+     top: 0;
+}
+ .carousel1-inner {
+     margin-bottom: 0px;
+}
+ .fa {
+     color: #000;
+     padding-right: 5px;
+     font-size: 17px;
+     line-height: 24px;
+}
+/*********************/
+ .reputize_new img {
+     width: 143px !important;
+     float: right;
+     text-align: center;
+     padding: 0px !important;
+}
+ .carousel-bullet, .carousel1-bullet {
+     color: #fff;
+     cursor: pointer;
+     display: block;
+     font-size: 35px;
+     width: auto;
+     height: auto;
+     border: 0px;
+}
+ .newsletter img {
+     width: 100%;
+     max-height: 259px;
+	 margin-top: 20px;
+   /* object-fit: cover;*/
+}
+ #hiddencalendar:empty~div .imptext {
+     display: none;
+}
+/******** New Styles ****/
+ .main-headding {
+     text-align: left;
+     padding: 7px 16px;
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: normal;
+     background-color: #1ABB9C;
+    /* background-image: linear-gradient(0deg, #97a90e 0%, #638207 0%, #97a90e 90%);*/
+     color: white;
+     border-top: 1px solid #1ABB9C;
+}
+ .calhide h4 {
+     margin-top: 10px !important;
+}
+ .reputize_new {
+     float: right;
+     margin-left: 15px;
+}
+ .map-main-div {
+     float: right;
+     width: 36.3%;
+     height: 196px;
+     border: 2px solid #000;
+     overflow: hidden;
+}
+ .titile-div {
+     width: 100%;
+}
+ .border-color {
+     border-bottom: 1px solid #000;
+     margin-top: 0px; 
+}
+ #overview ul li {
+     font-size: 15px;
+     line-height: 1.8;
+     color: #000;
+     margin-left: 18px;
+}
+ .innercontent ol li {
+     line-height: 1.8;
+     font-size: 15px;
+     color: #000;
+}
+ .innercontent ol {
+     padding-left: 20px;
+}
+ ul.amenities {
+     list-style-image: url(https://template.cultbay.com/content/images/tick_g.png);
+}
+/************** tabs ******************/
+ #demo h4 {
+     margin: 20px 0 8px 0;
+     color: #414566;
+}
+ .imptext-color {
+     font-weight: bold;
+     color: #414566;
+     font-size: 16px !important;
+}
+ .avail_color_reserv img {
+     margin-top: 30px !important;
+}
+ .innercontent1 ul li {
+     font-size: 15px !important;
+     color: #000;
+}
+ .row.offertext2 p {
+     margin: 0px !important;
+}
+ #hotel ul {
+     list-style-image: url(https://template.cultbay.com/content/images/tick_g.png);
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0.3;
+    margin-left: 23px;
+    width: 96%;
+    /* clear: both; */
+    float: left;
+    margin-bottom: 20px !important;
+}
+ #Hotel ol {
+     padding-left: 20px;
+}
+/****/
+ img.cssbox_thumb:hover {
+     opacity: 0.8;
+}
+ .gallery-sec {
+     border-left: 1px solid #f7f6f6;
+     border-right: 1px solid #f7f6f6;
+     border-bottom: 1px solid #1ABB9C;
+     padding: 10px 0 27px;
+     max-height: 472px;
+     overflow: auto;
+}
+ .gallery-sec ul li {
+     float: left;
+     list-style: none;
+     display:inline-flex;
+     margin-top: 14px;
+     border: 1px solid #a47474;
+}
+ .process {
+     background: #fff !important;
+     padding: 10px 0px 10px 0px;
+     display: flex;
+}
+ .newicons {
+     float: left;
+     width: 33.3%;
+     text-align: left;
+}	
+ .newicons img {
+     float: left;
+}
+ .newicons h3 {
+     font-size: 16px;
+     float: left;
+     margin-left: 10px;
+     line-height: 2.3;
+     color: #414566;
+}
+ .gallery-sec ul li img {
+     width: 100%;
+     padding: 0px !important;
+     object-position: center center;
+     object-fit: cover;
+}
+ #hotel ul li {
+     width: 45%;
+     float: left;
+     margin-right: 30px;
+}
+ div#hotel {
+     line-height: 1.8;
+     font-size: 15px;
+     color: #000;
+}
+ .offertext ul {
+     list-style-image: url(https://template.cultbay.com/content/images/tick_g.png);
+     margin-left: 5px;
+}
+/*** new template code added on 13th may ******/
+ .main_div {
+     border-top: 3px solid #1abb9c;
+}
+ .newicons:nth-child(2) {
+     text-align: center;
+}
+ .newicons:nth-child(2) img {
+     padding-left: 24%;
+}
+ .newicons:last-child {
+     text-align: right;
+}
+ .newicons:last-child h3{
+     float:right;
+}
+ .newicons:last-child img{
+     float:none;
+}
+ .main-title-bg {
+     background: #437625;
+     font-size: 18px;
+     color: #fff;
+     text-align: left;
+     padding: 7px 15px;
+     text-transform: uppercase;
+     font-weight: normal;
+     clear: both;
+     background-color: #1ABB9C;
+     color: white;
+     border-top: 1px solid #1ABB9C;
+}
+
+ .header-sec {
+     background: #fff;
+     padding: 15px 0;
+     font-size: 14px;
+     color: #000;
+     display: inline-block;
+     width: 100%;
+}
+ .header-sec .logo {
+     float: left;
+     margin-right: 70px;
+     width: 292px;
+     height: 66px;
+     margin-top: 8px;
+}
+ .header-sec .hotel-detils {
+     float: left;
+     text-align: left;
+     line-height: 1.6;
+}
+ .carousel-control img {
+     width: 17px;
+}
+ .header-sec .contact-sec {
+     margin-left: 5px;
+     margin-top: 5px;
+     float: right;
+     /* line-height: 1.6; */
+     text-align: right;
+     /* width: 34%; */
+}
+ .hotel-location-info {
+     padding: 15px 15px 0px;
+     line-height: 1.6;
+     font-size: 15px;
+}
+ .mapimg img {
+     object-position: center center;
+     object-fit: cover;
+     height: auto;
+     width: 100%;
+     margin: 10px 0px 30px;
+     border: 1px solid #ccc;
+}
+ .mapimg {
+     border: 1px solid #f7f6f6;
+     width: auto !important;
+     border-bottom: 0px;
+}
+ div#hotel h4 {
+     font-size: 16px;
+	 clear: both;
+}
+ .gallery-sec ul li .dspl-img {
+     display: none;
+}
+ .gallery-sec ul li:hover .dspl-img {
+     display: block;
+}
+ .thumbnail {
+     width: 318px;
+     height:210px;
+}
+ .italic {
+     font-style: italic;
+}
+ .small {
+     font-size: 0.8em;
+}
+/** LIGHTBOX MARKUP **/
+ .lightbox {
+     display: none;
+     position: fixed;
+     z-index: 999;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     top: 0;
+     left: 0;
+     background: rgba(0,0,0,0.8);
+}
+ .lightbox img {
+     max-width: 90%;
+     max-height: 80%;
+     margin-top: 2%;
+}
+ .lightbox:target {
+     outline: none;
+     display: block;
+}
+ .gallery-sec ul li .lightbox img {
+     width: auto !important;
+     height: auto;
+}
+/*********************** new gal*******************************/
+ div.cssbox {
+     display: inline-block;
+}
+ .cssbox_full {
+     z-index: 999;
+     position: absolute;
+     height: 509px;
+     width: 100%;
+     background-color: rgba(0,0,0,0.8);
+     margin-top: -25px;
+     left: 0;
+     opacity: 0;
+     pointer-events: none;
+     transition: opacity 0.5s linear;
+}
+ .cssbox_full img {
+     position: absolute;
+     background-color: white;
+     margin: 0;
+     padding: 0;
+     max-height: 84%;
+     max-width: 78%;
+     margin-top: 24.3% !important;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+     box-shadow: 0 0 20px black;
+}
+ a.cssbox_close, a.cssbox_prev, a.cssbox_next {
+     z-index: 999;
+     position: absolute;
+     text-decoration: none;
+     visibility: hidden;
+     color: white !important;
+     font-size: 36px;
+}
+ a.cssbox_close {
+    /* top: 1%;
+     */
+     right: 1%;
+     width: 25px !important;
+}
+ a.cssbox_close::after {
+     content: '\00d7';
+}
+ a.cssbox_prev, a.cssbox_next {
+    /* margin-top: 200px !important;
+     */
+     transform: translate(0%, -50%);
+}
+ a.cssbox_prev {
+     left: 3%;
+     width: 25px !important;
+     text-shadow: 1px 3px 3px #000;
+     margin: 0px !important;
+}
+ a.cssbox_next {
+     right: 3%;
+     width: 25px !important;
+     text-shadow: 1px 3px 3px #000;
+     margin:0px !important;
+}
+ #image1:target~.image1, #image2:target~.image2, #image3:target~.image3, #image4:target~.image4, #image5:target~.image5, #image6:target~.image6, #image7:target~.image7, #image8:target~.image8, #image9:target~.image9, #image10:target~.image10, #image11:target~.image11, #image12:target~.image12, #image13:target~.image13, #image14:target~.image14, #image15:target~.image15, #image16:target~.image16, #image17:target~.image17, #image18:target~.image18, #image19:target~.image19, #image20:target~.image20, #image21:target~.image21, #image22:target~.image22, #image23:target~.image23, #image24:target~.image24, #image25:target~.image25, #image26:target~.image26, #image27:target~.image27, #image28:target~.image28, #image29:target~.image29, #image30:target~.image30, #image31:target~.image31, #image31:target~.image32 {
+     visibility: visible;
+     margin-top: 257px !important;
+}
+ a:target~a.cssbox_close {
+     visibility: visible;
+     margin-top: 2% !important;
+}
+ a:target > img.cssbox_thumb + .cssbox_full {
+     visibility: visible;
+     opacity: 1;
+     pointer-events: initial;
+    /* position: sticky;
+     */
+}
+ .cssbox_full {
+     cursor: initial;
+}
+/* This is the end of CSSBox */
+ img.cssbox_thumb {
+     width: 233.7px;
+     height: 140px;
+    /*margin-left: 15px;
+    */
+     object-position: center center;
+     object-fit: cover;
+     border: 1px solid #ccc;
+}
+ .cssbox a {
+     float: left;
+     margin-top: 15px;
+     margin-left: 15px;
+}
+ .cssbox a:nth-child(2), .cssbox a:nth-child(4), .cssbox a:nth-child(6), .cssbox a:nth-child(8), .cssbox a:nth-child(10), .cssbox a:nth-child(12), .cssbox a:nth-child(14), .cssbox a:nth-child(16), .cssbox a:nth-child(18), .cssbox a:nth-child(20), .cssbox a:nth-child(22), .cssbox a:nth-child(23), .cssbox a:nth-child(24), .cssbox a:nth-child(26), .cssbox a:nth-child(28), .cssbox a:nth-child(30), .cssbox a:nth-child(32){
+     margin-right: 0px;
+}
+ a#image5 .cssbox_full, a#image6 .cssbox_full, a#image7 .cssbox_full, a#image8 .cssbox_full {
+     margin-top: -182px;
+}
+ a#image9 .cssbox_full, a#image10 .cssbox_full, a#image11 .cssbox_full, a#image12 .cssbox_full {
+     margin-top: -339px;
+}
+ #image13 .cssbox_full, #image14 .cssbox_full, #image15 .cssbox_full, #image16 .cssbox_full {
+     margin-top: -496px;
+}
+ #image17 .cssbox_full, #image18 .cssbox_full, #image19 .cssbox_full, #image20 .cssbox_full {
+     margin-top: -653px;
+}
+ #image21 .cssbox_full, #image22 .cssbox_full, #image23 .cssbox_full, #image24 .cssbox_full {
+     margin-top: -810px;
+}
+ #image25 .cssbox_full, #image26 .cssbox_full, #image27 .cssbox_full, #image28 .cssbox_full {
+     margin-top: -967px;
+}
+ #image29 .cssbox_full, #image30 .cssbox_full, #image31 .cssbox_full, #image32 .cssbox_full {
+     margin-top: -1124px;
+}
+ .gs-logo img {
+     float: right;
+     padding-top: 17px;
+     padding-bottom: 17px;
+     padding-right: 10px;
+}
+ ::-webkit-scrollbar {
+     width: 8px;
+}
+/* Track */
+ ::-webkit-scrollbar-track {
+     background: #f1f1f1;
+}
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+     background: #888;
+     border-radius: 10px;
+}
+.header-sec .contact-sec ul li:last-child span { 
+    float: left; 
+    line-height:11px;
+    margin-top: 4px;
+ }
+.header-sec .contact-sec ul li:first-child img {
+    height: 13px;
+    width: 13px;
+	padding-right: 2px !important;
+}
+
+ .header-sec .contact-sec ul li:last-child img {
+    margin-top: 1px;
+    margin-right: 3px;
+    height: 13px;
+}
+.header-sec .contact-sec ul li:nth-child(2) img {
+    margin-top: 1px;
+    margin-right: 1px;
+    height: 13px;
+    width: 14px;
+	float: left;
+}
+.header-sec .contact-sec ul li img {    
+	width: 14px;
+    height: 14px;
+	padding-right: 5px !important;
+}
+.header-sec .contact-sec ul li{
+    list-style: none;
+    float: right;
+    clear:both;
+    padding-bottom: 6px;
+}
+.contact-sec ul li:nth-child(2) span.emp:empty ~ span {
+  display: none;
+}
+/**** code added on 08-oct20  ****/
+.faq-tnc {
+    line-height: 1.8;
+	font-size: 15px; 
+	border-bottom: 1px solid #f7f6f6; 
+}

@@ -1,0 +1,66 @@
+.ebayArchive {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    .formik {
+      display: flex;
+
+      .row {
+        margin-bottom: 0;
+
+        .ant-input-affix-wrapper {
+          padding: 0;
+
+          input {
+            padding: 7.9px 11px;
+            height: auto;
+          }
+
+          .ant-input-suffix {
+            margin: 0;
+
+            button {
+              height: 40px;
+              font: 500 15px Poppins;
+              padding: 13px 11px 13px 12px !important;
+              cursor: pointer;
+              transition: all .3s ease;
+              border-radius: 4px;
+              border: none;
+              line-height: 15px;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+
+      &-footer {
+        display: block;
+        position: relative;
+
+        button {
+          margin-bottom: 0;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+        }
+      }
+    }
+  }
+
+  .ant-table-row-expand-icon-cell {
+    display: none;
+  }
+
+  &-content {
+    padding: 9px 20px;
+
+    p {
+      font: 400 12px Poppins;
+      margin-bottom: 20px;
+    }
+  }
+}

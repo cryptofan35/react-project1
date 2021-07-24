@@ -1,0 +1,102 @@
+.CalendarPackage {
+  &--calendar {
+    max-width: 323px;
+
+    .ant-picker-panel {
+      border: none;
+    }
+
+    .ant-picker-body {
+      border: 1px solid #E3ECF6;
+      border-radius: 8px;
+
+      table {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        thead {
+
+          tr {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-around;
+
+            th {
+              color: #1C2833;
+              font: 500 14px Poppins;
+            }
+          }
+        }
+
+        tbody {
+
+          .ant-picker-cell {
+            pointer-events: none;
+          }
+
+          .ant-picker-cell-in-view {
+            pointer-events: none;
+          }
+
+          td {
+            position: relative;
+            height: 42px;
+            width: 48px;
+
+            &:before {
+              z-index: -9999;
+            }
+
+            div {
+              width: 32px;
+              height: 32px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+
+              span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                pointer-events: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &--date {
+      color: #1C2833;
+      font: 500 14px Poppins;
+      margin-bottom: 17px;
+      text-align: center;
+    }
+
+    &--item {
+
+      &--day {
+        color: #ffffff;
+        font: 400 14px Poppins;
+        line-height: 16px;
+        border-radius: 50%;
+
+        &__today {
+          border: 2px solid #005C81;
+        }
+
+        &__past {
+
+          span {
+            text-decoration: line-through;
+            color: #A3A3A3;
+            font: 400 14px Poppins;
+          }
+        }
+      }
+    }
+  }
+}

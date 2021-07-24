@@ -1,0 +1,173 @@
+.HelpCenter {
+  margin-bottom: 46px;
+
+  .helpcenter-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-left: 14px;
+    margin-right: 10px;
+
+    a {
+      font-weight: bold;
+    }
+
+    div.form-error {
+      color: #D0021B;
+    }
+
+    textarea.form-error {
+      border: 1px solid #D0021B;
+    }
+
+    .form-container {
+      .ant-form-horizontal .ant-row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .info {
+      display: flex;
+      margin-bottom: 35px;
+      margin-top: 35px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        fill: #005C81;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: #005C81;
+        font: 400 14px Poppins;
+      }
+    }
+
+    .form-feedback {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+
+      .form-success-card {
+        display: flex;
+        flex-direction: row;
+        border-radius: 4px;
+        background: rgba(134, 184, 23, 0.2);
+        color: #3F4254;
+        padding: 20px;
+
+        .message {
+          display: flex;
+          flex-direction: column;
+          row-gap: 10px;
+          padding: 0;
+        }
+
+        svg {
+          width: 24px;
+          height: 24px;
+          margin-right: 8px;
+          margin-top: -4px;
+          fill: #86B817;
+        }
+      }
+
+      .button-container {
+        display: flex;
+        justify-content: flex-end;
+
+        .send-more-button {
+          height: 45px;
+          width: 160px;
+          left: 0px;
+          top: 0px;
+          border-radius: 4px;
+          background-color: #1F5F88;
+          color: #ffffff;
+          font: 500 15px Poppins;
+          padding: 12px 16px 10px !important;
+          margin-bottom: 17px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          border-radius: 4px;
+          border: none;
+          line-height: 21px;
+        }
+      }
+    }
+
+    .search-answers {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+
+      h4 {
+        font-size: 18px;
+      }
+
+      .card-group {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+
+        @media screen and (max-width: 1100px) {
+          flex-direction: column;
+          align-items: center;
+          row-gap: 10px;
+
+        }
+
+        .card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          row-gap: 10px;
+          box-sizing: border-box;
+          box-shadow: 2px 2px 4px 0px #1F5F8833;
+          border: 1px solid #EEF0F5;
+          background: #FFFFFF;
+          width: 226px;
+          min-height: 187px;
+          border-radius: 4px;
+          padding: 17px;
+
+          img {
+            width: 49px;
+            height: 49px;
+            margin-bottom: 10px;
+          }
+
+          h4 {
+            font-size: 18px;
+          }
+
+          span {
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0px;
+            text-align: center;
+          }
+        }
+      }
+
+    }
+
+
+  }
+
+}

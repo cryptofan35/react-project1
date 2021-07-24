@@ -1,0 +1,325 @@
+@charset "utf-8";
+/*components css start*/
+ #cc-slider label, a {
+     color: #ef023f;
+     text-decoration: none;
+}
+ #cc-slider label:hover {
+     color: #ff0042 !important;
+}
+ #cc-slider {
+     text-align: center;
+     max-width: 530px;
+     height: 185px;
+     margin-top: 45px;
+}
+ #cc-slider label, a {
+     color: rgba(215, 40, 40, 0.9);
+     cursor: pointer;
+     text-decoration: none;
+}
+ #cc-slider label:hover {
+     color: #ff0042 !important;
+}
+ #overflow {
+     width: 100%;
+     overflow: hidden;
+}
+ #cc-slides .inner {
+     width: 500%;
+     line-height: 0;
+}
+ #cc-slides {
+     line-height: 0;
+}
+ #cc-slides article {
+     width: 20%;
+     float: left;
+}
+ #controls {
+     height: 30px;
+     float: right;
+     bottom: 20px;
+     right: 20px;
+     margin-top: -30px;
+}
+ #controls label {
+     display: none;
+     width: 23px;
+     height: 21px;
+     margin: 0 4px;
+     background-color: #e0e0e0;
+     border: 1px solid #6d6d6d;
+     border-radius: 3px;
+}
+ #controls label:hover {
+     opacity: 0.8;
+}
+ #controls1 {
+     height: 30px;
+     bottom: 20px;
+     right: 20px;
+     float: left;
+     margin-top: -30px;
+}
+ #controls1 label {
+     display: none;
+     height: 21px;
+     margin: 0 4px;
+     width: 22px;
+     background-color: #e0e0e0;
+     border: 1px solid #6d6d6d;
+     border-radius: 3px;
+}
+ #controls1 label:hover {
+     opacity: 0.8;
+}
+ #month1:checked~#controls label:nth-child(2), #month2:checked~#controls label:nth-child(3), #month3:checked~#controls label:nth-child(4), #month4:checked~#controls label:nth-child(5), #month5:checked~#controls label:nth-child(6), #month6:checked~#controls label:nth-child(7), #month7:checked~#controls label:nth-child(8), #month8:checked~#controls label:nth-child(9), #month9:checked~#controls label:nth-child(10), #month10:checked~#controls label:nth-child(11), #month11:checked~#controls label:nth-child(12), #month12:checked~#controls label:nth-child(13), #month13:checked~#controls label:nth-child(14), #month14:checked~#controls label:nth-child(15), #month15:checked~#controls label:nth-child(16), #month16:checked~#controls label:nth-child(17), #month17:checked~#controls label:nth-child(18), #month18:checked~#controls label:nth-child(19), #month19:checked~#controls label:nth-child(20), #month20:checked~#controls label:nth-child(21), #month21:checked~#controls label:nth-child(22), #month22:checked~#controls label:nth-child(23), #month23:checked~#controls label:nth-child(24), #month24:checked~#controls label:nth-child(25), #month25:checked~#controls label:nth-child(26), #month26:checked~#controls label:nth-child(27), #month27:checked~#controls label:nth-child(28), #month28:checked~#controls label:nth-child(29), #month29:checked~#controls label:nth-child(30), #month30:checked~#controls label:nth-child(31), #month31:checked~#controls label:nth-child(32), #month32:checked~#controls label:nth-child(33), #month33:checked~#controls label:nth-child(34), #month34:checked~#controls label:nth-child(35), #month35:checked~#controls label:nth-child(36), #month36:checked~#controls label:nth-child(37), #month37:checked~#controls label:nth-child(1) {
+     background: #f9f9f9 url('https://template.cultbay.com/content/images/next.png') no-repeat;
+     float: left;
+     display: block;
+     background-color: #fff;
+}
+ #month34:checked~#controls label:nth-child(35) {
+     pointer-events: none;
+     cursor: default;
+}
+ #month1:checked~#controls label:nth-child(4), #month2:checked~#controls label:nth-child(5), #month3:checked~#controls label:nth-child(6), #month4:checked~#controls label:nth-child(7), #month5:checked~#controls label:nth-child(8), #month6:checked~#controls label:nth-child(9), #month7:checked~#controls label:nth-child(10), #month8:checked~#controls label:nth-child(11), #month9:checked~#controls label:nth-child(12), #month10:checked~#controls label:nth-child(13), #month11:checked~#controls label:nth-child(14), #month12:checked~#controls label:nth-child(15), #month13:checked~#controls label:nth-child(16), #month14:checked~#controls label:nth-child(17), #month15:checked~#controls label:nth-child(18), #month16:checked~#controls label:nth-child(19), #month17:checked~#controls label:nth-child(20), #month18:checked~#controls label:nth-child(21), #month19:checked~#controls label:nth-child(22), #month20:checked~#controls label:nth-child(23), #month21:checked~#controls label:nth-child(24), #month22:checked~#controls label:nth-child(25), #month23:checked~#controls label:nth-child(26), #month24:checked~#controls label:nth-child(27), #month25:checked~#controls label:nth-child(28), #month26:checked~#controls label:nth-child(29), #month27:checked~#controls label:nth-child(30), #month28:checked~#controls label:nth-child(31), #month29:checked~#controls label:nth-child(32), #month30:checked~#controls label:nth-child(33), #month31:checked~#controls label:nth-child(34), #month32:checked~#controls label:nth-child(35), #month33:checked~#controls label:nth-child(36), #month34:checked~#controls label:nth-child(37), #month35:checked~#controls label:nth-child(1), #month36:checked~#controls label:nth-child(2), #month37:checked~#controls label:nth-child(3) {
+     background: #f9f9f9 url('https://template.cultbay.com/content/images/next1.png') no-repeat;
+     float: right;
+     display: block;
+     background-color: #fff;
+}
+ #month34:checked~#controls label:nth-child(37) {
+     pointer-events: none;
+     cursor: default;
+}
+ #month1:checked~#controls1 label:nth-child(37), #month2:checked~#controls1 label:nth-child(1), #month3:checked~#controls1 label:nth-child(2), #month4:checked~#controls1 label:nth-child(3), #month5:checked~#controls1 label:nth-child(4), #month6:checked~#controls1 label:nth-child(5), #month7:checked~#controls1 label:nth-child(6), #month8:checked~#controls1 label:nth-child(7), #month9:checked~#controls1 label:nth-child(8), #month10:checked~#controls1 label:nth-child(9), #month11:checked~#controls1 label:nth-child(10), #month12:checked~#controls1 label:nth-child(11), #month13:checked~#controls1 label:nth-child(12), #month14:checked~#controls1 label:nth-child(13), #month15:checked~#controls1 label:nth-child(14), #month16:checked~#controls1 label:nth-child(15), #month17:checked~#controls1 label:nth-child(16), #month18:checked~#controls1 label:nth-child(17), #month19:checked~#controls1 label:nth-child(18), #month20:checked~#controls1 label:nth-child(19), #month21:checked~#controls1 label:nth-child(20), #month22:checked~#controls1 label:nth-child(21), #month23:checked~#controls1 label:nth-child(22), #month24:checked~#controls1 label:nth-child(23), #month25:checked~#controls1 label:nth-child(24), #month26:checked~#controls1 label:nth-child(25), #month27:checked~#controls1 label:nth-child(26), #month28:checked~#controls1 label:nth-child(27), #month29:checked~#controls1 label:nth-child(28), #month30:checked~#controls1 label:nth-child(29), #month31:checked~#controls1 label:nth-child(30), #month32:checked~#controls1 label:nth-child(31), #month33:checked~#controls1 label:nth-child(32), #month34:checked~#controls1 label:nth-child(33), #month35:checked~#controls1 label:nth-child(34), #month36:checked~#controls1 label:nth-child(35), #month37:checked~#controls1 label:nth-child(36) {
+     background: url('https://template.cultbay.com/content/images/prev.png') no-repeat;
+     float: right;
+     display: block;
+     background-color: #fff;
+     border-radius: 3px;
+}
+ #month1:checked~#controls1 label:nth-child(35), #month2:checked~#controls1 label:nth-child(36), #month3:checked~#controls1 label:nth-child(37), #month4:checked~#controls1 label:nth-child(1), #month5:checked~#controls1 label:nth-child(2), #month6:checked~#controls1 label:nth-child(3), #month7:checked~#controls1 label:nth-child(4), #month8:checked~#controls1 label:nth-child(5), #month9:checked~#controls1 label:nth-child(6), #month10:checked~#controls1 label:nth-child(7), #month11:checked~#controls1 label:nth-child(8), #month12:checked~#controls1 label:nth-child(9), #month13:checked~#controls1 label:nth-child(10), #month14:checked~#controls1 label:nth-child(11), #month15:checked~#controls1 label:nth-child(12), #month16:checked~#controls1 label:nth-child(13), #month17:checked~#controls1 label:nth-child(14), #month18:checked~#controls1 label:nth-child(15), #month19:checked~#controls1 label:nth-child(16), #month20:checked~#controls1 label:nth-child(17), #month21:checked~#controls1 label:nth-child(18), #month22:checked~#controls1 label:nth-child(19), #month23:checked~#controls1 label:nth-child(20), #month24:checked~#controls1 label:nth-child(21), #month25:checked~#controls1 label:nth-child(22), #month26:checked~#controls1 label:nth-child(23), #month27:checked~#controls1 label:nth-child(24), #month28:checked~#controls1 label:nth-child(25), #month29:checked~#controls1 label:nth-child(26), #month30:checked~#controls1 label:nth-child(27), #month31:checked~#controls1 label:nth-child(28), #month32:checked~#controls1 label:nth-child(29), #month33:checked~#controls1 label:nth-child(30), #month34:checked~#controls1 label:nth-child(31), #month35:checked~#controls1 label:nth-child(32), #month36:checked~#controls1 label:nth-child(33), #month37:checked~#controls1 label:nth-child(34) {
+     background: url('https://template.cultbay.com/content/images/prev1.png') no-repeat;
+     float: left;
+     display: block;
+     background-color: #fff;
+     border-radius: 3px;
+}
+ #month1:checked~#controls1 label:nth-child(35), #month2:checked~#controls1 label:nth-child(36) {
+     pointer-events: none;
+     cursor: default;
+}
+/* cc-slider Styling */
+ #cc-slides {
+     margin: 0px 0 0;
+     padding: 0 1%;
+     max-width: 530px;
+     background: none;
+}
+/* Animation */
+ #cc-slides {
+     -webkit-transform: translateZ(0);
+     -webkit-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -moz-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -ms-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -o-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    /* easeInOutQuart */
+     -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    /* easeInOutQuart */
+}
+/* Animation */
+ #cc-slides .inner {
+     -webkit-transform: translateZ(0);
+     -webkit-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -moz-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -ms-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -o-transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     transition: all 1200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    /* easeInOutQuart */
+     -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    /* easeInOutQuart */
+}
+ #cc-slider {
+     -webkit-transform: translateZ(0);
+     -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out;
+     -o-transition: all 0.5s ease-out;
+     transition: all 0.5s ease-out;
+}
+ #controls label {
+     -webkit-transform: translateZ(0);
+     -webkit-transition: opacity 0.2s ease-out;
+     -moz-transition: opacity 0.2s ease-out;
+     -o-transition: opacity 0.2s ease-out;
+     transition: opacity 0.2s ease-out;
+}
+ #controls1 label {
+     -webkit-transform: translateZ(0);
+     -webkit-transition: opacity 0.2s ease-out;
+     -moz-transition: opacity 0.2s ease-out;
+     -o-transition: opacity 0.2s ease-out;
+     transition: opacity 0.2s ease-out;
+}
+ #month1:checked~#cc-slides .inner {
+     cursor: default !important;
+}
+ #month2:checked~#cc-slides .inner {
+     margin-left: -33.4%;
+}
+ #month3:checked~#cc-slides .inner {
+     margin-left: -67%;
+}
+ #month4:checked~#cc-slides .inner {
+     margin-left: -100.5%;
+}
+ #month5:checked~#cc-slides .inner {
+     margin-left: -134%;
+}
+ #month6:checked~#cc-slides .inner {
+     margin-left: -167.5%;
+}
+ #month7:checked~#cc-slides .inner {
+     margin-left: -200.9%;
+}
+ #month8:checked~#cc-slides .inner {
+     margin-left: -234.5%;
+}
+ #month9:checked~#cc-slides .inner {
+     margin-left: -268%;
+}
+ #month10:checked~#cc-slides .inner {
+     margin-left: -301.5%;
+}
+ #month11:checked~#cc-slides .inner {
+     margin-left: -335%;
+}
+ #month12:checked~#cc-slides .inner {
+     margin-left: -368.5%;
+}
+ #month13:checked~#cc-slides .inner {
+     margin-left: -402%;
+}
+ #month14:checked~#cc-slides .inner {
+     margin-left: -435.5%;
+}
+ #month15:checked~#cc-slides .inner {
+     margin-left: -468.9%;
+}
+ #month16:checked~#cc-slides .inner {
+     margin-left: -502.5%;
+}
+ #month17:checked~#cc-slides .inner {
+     margin-left: -535.8%;
+}
+ #month18:checked~#cc-slides .inner {
+     margin-left: -569.5%;
+}
+ #month19:checked~#cc-slides .inner {
+     margin-left: -603%;
+}
+ #month20:checked~#cc-slides .inner {
+     margin-left: -636.5%;
+}
+ #month21:checked~#cc-slides .inner {
+     margin-left: -670%;
+}
+ #month22:checked~#cc-slides .inner {
+     margin-left: -703.5%;
+}
+ #month23:checked~#cc-slides .inner {
+     margin-left: -737%;
+}
+ #month24:checked~#cc-slides .inner {
+     margin-left: -770.5%;
+}
+ #month25:checked~#cc-slides .inner {
+     margin-left: -804%;
+}
+ #month26:checked~#cc-slides .inner {
+     margin-left: -837.5%;
+}
+ #month27:checked~#cc-slides .inner {
+     margin-left: -871%;
+}
+ #month28:checked~#cc-slides .inner {
+     margin-left: -904.5%;
+}
+ #month29:checked~#cc-slides .inner {
+     margin-left: -938%;
+}
+ #month30:checked~#cc-slides .inner {
+     margin-left: -971.5%;
+}
+ #month31:checked~#cc-slides .inner {
+     margin-left: -1005%;
+}
+ #month32:checked~#cc-slides .inner {
+     margin-left: -1038.5%;
+}
+ #month33:checked~#cc-slides .inner {
+     margin-left: -1072%;
+}
+ #month34:checked~#cc-slides .inner {
+     margin-left: -1105.5%;
+}
+ #month35:checked~#cc-slides .inner {
+     margin-left: -1139%;
+}
+ #month36:checked~#cc-slides .inner {
+     margin-left: -1172%;
+}
+ #month37:checked~#cc-slides .inner {
+     cursor: default !important;
+}
+ .cell .avail_color {
+     margin-bottom: 35px;
+}
+ .right_cultuzlogo {
+     margin-top: -15px;
+     padding-left: 11.2em;
+     float: left;
+}
+ .secondcalnder #cc-slides {
+     padding: 0px;
+}
+ .secondcalnder .title.large {
+     margin-bottom: 15px;
+}
+ .secondcalnder #cc-slides {
+     transform: translateZ(0px);
+     transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1) 0s;
+}
+ #overflow {
+     width: 100%;
+     overflow: hidden;
+}
+ .avail_color p img {
+     margin-bottom: -3px;
+     padding-right: 3px;
+}
+ .avail_color p {
+     margin-top: 0px;
+     float: left 
+}
+ .avail_color {
+     margin-top: -20px;
+}
+ .cell .avail_color {
+     margin-bottom: 35px;
+}
+ .right_cultuzlogo {
+     margin-top: 0px;
+     padding-left: 13em;
+}

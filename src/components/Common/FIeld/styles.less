@@ -1,0 +1,29 @@
+.field {
+  display: flex;
+  flex-direction: column;
+
+  &-error {
+    position: relative;
+
+    .ant-select-selector, .ant-picker {
+      border-color: #D0021B;
+    }
+
+    input {
+      border-color: #D0021B;
+    }
+
+    textarea {
+      border-color: #D0021B;
+    }
+
+    &-label {
+      position: absolute;
+      left: 0;
+      top: calc(100% + 5px);
+      color: #D0021B;
+      font: 400 11px Poppins;
+      line-height: 12px;
+    }
+  }
+}

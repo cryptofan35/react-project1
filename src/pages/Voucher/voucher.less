@@ -1,0 +1,105 @@
+.vouchers-table {
+  p {
+    margin-bottom: 0;
+  }
+
+  .voucher-id {
+    color: #495057;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+  }
+
+  .voucher-redeemed-status {
+    color: #73bd92;
+  }
+
+  .voucher-unredeemed-status {
+    color: #495057;
+  }
+
+  .voucher-cancellation-status {
+    color: #e592a6;
+  }
+}
+
+.ant-pagination-item {
+  border: none;
+  margin-right: 5px;
+
+  & a {
+    color: #005c81;
+    font-size: 12px;
+  }
+
+  &:hover {
+    background-color: #f0f3fe;
+    opacity: 0.7;
+  }
+
+  &-active {
+    background-color: #005c81;
+
+    &:hover {
+      background-color: #005c81;
+      opacity: 1;
+    }
+
+    & a {
+      color: #fff!important;
+    }
+  }
+}
+
+.ant-table-pagination.ant-pagination {
+  margin: 30px 0 0 0;
+}
+
+.ant-pagination-prev button,
+.ant-pagination-next button {
+  border: none!important;
+  background-color: #f0f3fe!important;
+}
+
+.ant-pagination-next button {
+  background-color: #f0f3fe;
+
+  & > span {
+    transform: rotate(-90deg);
+    background: center no-repeat url("../../assets/images/arrow-down.png");
+
+    & > svg path {
+      display: none;
+    }
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.ant-pagination-prev button {
+  background-color: #f0f3fe;
+
+  & > span {
+    transform: rotate(90deg);
+    background: center no-repeat url("../../assets/images/arrow-down.png");
+
+    & > svg path {
+      display: none;
+    }
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.ant-pagination-disabled {
+  opacity: 0.4;
+
+  &:hover {
+    opacity: 0.4;
+  }
+}

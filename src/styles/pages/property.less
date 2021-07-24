@@ -1,0 +1,235 @@
+/*Property Styles*/
+
+.breadcrumb-wrapper {
+  height: 70px;
+
+  & span {
+    display: block;
+    color: #1c2833;
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 10px;
+  }
+}
+
+.@{class-prefix}-map-marker {
+  width: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.@{class-prefix}-add-content-wrapper {
+  color: #1c2833;
+  padding: 0 10px;
+
+  & .@{class-prefix}-notify-wrapper {
+    width: 100%;
+    max-width: 1090px;
+    padding: 20px 24px;
+    border: 1px solid #68c5db;
+    border-radius: 10px;
+    background-color: rgba(104, 197, 219, 0.4);
+    margin-bottom: 50px;
+
+    & .title {
+      display: flex;
+      font-size: 15px;
+      font-family: "Poppins";
+      font-weight: 500;
+      align-items: center;
+
+      & .anticon {
+        margin-right: 14px;
+      }
+    }
+
+    & .content {
+      display: block;
+      padding-left: 35px;
+    }
+  }
+
+  & .card-wrapper {
+    // display  : flex;
+    max-width: 1090px;
+
+    & .ant-card {
+      display: flex;
+      height: 280px;
+      // width        : 330px;
+      border-radius: 10px;
+      text-align: center;
+      color: #1c2833;
+      box-shadow: 1px 1px 4px 0 rgba(126, 126, 126, 0.5);
+      line-height: 23px;
+
+      & .ant-card-body {
+        display: flex;
+        align-items: center;
+      }
+
+      & .card-image {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Montserrat";
+        background-color: #1d577b;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 15px;
+      }
+
+      & .card-title {
+        font-size: 20px;
+        font-family: "Poppins";
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+
+      & .card-content {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.@{class-prefix}-name-content-wrapper {
+  color: #1c2833;
+}
+
+@supports (-moz-transform: translate(0, 0)) {
+  & .property-form-wrapper {
+    margin-bottom: 3rem;
+  }
+}
+
+& .property-form-wrapper {
+  padding: 20px 30px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 0 rgba(126, 126, 126, 0.5);
+
+  & input {
+    height: 40px;
+    border-radius: 4px;
+  }
+
+  & .form-title-wrapper {
+    margin-bottom: 30px;
+
+    & .form-title {
+      font-family: "Poppins";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 25px;
+      border-bottom: 2px solid #005c81;
+    }
+
+    & .form-tip {
+      font-family: "Poppins";
+      font-size: 12px;
+      line-height: 18px;
+      color: #a3a3a3;
+      margin-right: 2px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      cursor: default;
+    }
+
+    & .form-tip-visible {
+      opacity: 1;
+    }
+  }
+
+  & .form-title-wrapper-justify {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & .form-title-wrapper-no-margin {
+    margin-bottom: 0;
+  }
+
+  & .form-title-wrapper-height-10 {
+    height: 10px;
+  }
+
+  & .form-title-wrapper-flex-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  & .select-wraper,
+  .input-wraper {
+    margin-bottom: 20px;
+
+    & label {
+      display: flex;
+      color: #3f4254;
+      font-family: "Poppins";
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 10px;
+
+      & span {
+        color: #d0021b;
+      }
+    }
+
+    & .form-validate-text {
+      margin-top: 5px;
+      display: inline-block;
+    }
+  }
+
+  & .ant-select {
+    width: 100%;
+
+    & .ant-select-selector {
+      height: 40px;
+      border-radius: 4px;
+
+      & .ant-select-selection-search {
+        height: 39px;
+
+        & .ant-select-selection-search-input {
+          height: 39px;
+        }
+      }
+    }
+
+    & .ant-select-arrow {
+      top: 48%;
+    }
+
+    & .anticon {
+      pointer-events: none;
+    }
+  }
+
+  & .ant-checkbox {
+    margin-right: 3px;
+
+    & .ant-checkbox-inner {
+      border-radius: 2px;
+    }
+  }
+
+  & .google-map {
+    margin-bottom: 20px;
+  }
+
+  & .ant-btn {
+    padding: 11px 22px;
+    line-height: 1;
+    font-weight: 500;
+  }
+
+  & .ant-btn-link {
+    color: #005C81;
+  }
+}

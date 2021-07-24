@@ -1,0 +1,179 @@
+@import "../../styles/variables.less";
+
+.dashboard {
+  &__header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  &__title {
+    margin: 10px 0 30px 0;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #1c2833;
+    font-family: "Poppins";
+  }
+
+  .ant-card {
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0 rgba(126, 126, 126, 0.5);
+  }
+
+  .ant-card-head {
+    border-bottom: 0;
+  }
+
+  .ant-card-head-title {    
+    text-decoration: underline;
+  }
+
+  .ant-card-body {
+    font-size: 12px;
+  }
+
+  h5.ant-typography {
+    margin-bottom: 2em;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .ant-space-vertical {
+    width: 100%;
+  }
+
+  .ant-table table {
+    font-size: 12px;
+  }
+
+  .ant-table-tbody a {
+    text-decoration: underline;
+  }
+
+  .recharts-default-tooltip {
+    background-color: #ffffff !important;
+  }
+
+  .recharts-legend-item {
+    color: #A3A3A3;
+  }
+}
+
+.dashboard-running-packages {
+  .ant-table table {
+    width: auto;
+  }
+
+  .ant-table-tbody > tr > td {
+    border: 0;
+  }
+
+  .recharts-no-data {
+    max-height: 200px;
+  }
+
+  .top-performing-packages {
+    .ant-table-row {
+      .ant-table-cell:first-child {
+        padding-left: 0;
+        padding-right: 2px;
+        text-align: left;
+      }
+      .ant-table-cell p {
+        margin-bottom: 0;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .recharts-responsive-container {
+    height: auto !important;
+
+    .recharts-wrapper {
+      height: auto !important;
+
+      .recharts-legend-item {
+        display: inline-flex !important;
+        align-items: center;
+        margin-bottom: 3px;
+      }
+
+      .recharts-legend-wrapper {
+        margin-top: -20px;
+        position: static !important;
+
+        svg.recharts-surface {
+          margin-right: 1px !important;
+          height: 15px;
+        }
+      }
+    }
+  }
+}
+
+.dashboard-vouchers {
+  .dashboard-vouchers-table {
+    margin: 2em 0 4em 0;
+  }
+
+  .ant-table-thead .ant-table-cell[colspan] {
+    font-size: 14px;
+  }
+
+  .ant-table-tbody > tr > td {
+    font-size: 14px;
+  }
+
+  .recharts-legend-item {
+    margin-bottom: 10px;
+  }
+
+  svg.recharts-surface {
+    overflow: visible;
+  }
+}
+
+.dashboard-buyers {
+  .recharts-responsive-container {
+    max-width: 400px;
+  }
+
+  .recharts-legend-item {
+    margin-bottom: 10px;
+  }
+}
+
+.recharts-no-data {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-number {
+  display: flex;
+  flex-direction: column;
+  width: 145px;
+  margin-bottom: 8px;
+  padding: 1em;
+  color: #1C2833;
+  background-color: #E3ECF6;
+  border-radius: 8px;
+
+  .widget-number-label {
+    display: block;
+    min-height: 40px;
+    font-size: 14px;
+    margin-bottom: 0.5em;
+  }
+
+  .widget-number-value {
+    display: block;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: right;
+  }
+}

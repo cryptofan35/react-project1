@@ -1,0 +1,34 @@
+.CalendarPackage {
+  margin-bottom: 50px;
+  border-bottom:  1px solid #E3ECF6;
+  opacity: 0.8;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  &--name {
+    margin-bottom: 30px;
+    color: #1C2833;
+    font: 500 14px Poppins;
+  }
+
+  &--row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  &--hints {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 21px;
+
+    .Hint {
+      margin-right: 12px !important;
+    }
+  }
+}

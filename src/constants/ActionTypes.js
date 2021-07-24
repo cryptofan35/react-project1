@@ -1,0 +1,120 @@
+// Customizer const
+export const TOGGLE_COLLAPSED_NAV = "TOGGLE_COLLAPSE_MENU";
+export const WINDOW_WIDTH = "WINDOW-WIDTH";
+export const SWITCH_LANGUAGE = "SWITCH-LANGUAGE";
+
+//Contact Module const
+export const FETCH_START = "fetch_start";
+export const FETCH_SUCCESS = "fetch_success";
+export const FETCH_ERROR = "fetch_error";
+export const SHOW_MESSAGE = "SHOW_MESSAGE";
+export const HIDE_MESSAGE = "HIDE_MESSAGE";
+export const ON_SHOW_LOADER = "ON_SHOW_LOADER";
+export const ON_HIDE_LOADER = "ON_HIDE_LOADER";
+
+//Auth const
+export const SIGNUP_USER = "SIGNUP_USER";
+export const SIGNUP_USER_SUCCESS = "SIGNUP_USER_SUCCESS";
+export const SIGNIN_GOOGLE_USER = "SIGNIN_GOOGLE_USER";
+export const SIGNIN_GOOGLE_USER_SUCCESS = "SIGNIN_GOOGLE_USER_SUCCESS";
+export const SIGNIN_FACEBOOK_USER = "SIGNIN_FACEBOOK_USER";
+export const SIGNIN_FACEBOOK_USER_SUCCESS = "SIGNIN_FACEBOOK_USER_SUCCESS";
+export const SIGNIN_TWITTER_USER = "SIGNIN_TWITTER_USER";
+export const SIGNIN_TWITTER_USER_SUCCESS = "SIGNIN_TWITTER_USER_SUCCESS";
+export const SIGNIN_GITHUB_USER = "SIGNIN_GITHUB_USER";
+export const SIGNIN_GITHUB_USER_SUCCESS = "signin_github_user_success";
+export const SIGNIN_USER = "SIGNIN_USER";
+export const SIGNIN_USER_SUCCESS = "SIGNIN_USER_SUCCESS";
+export const SIGNOUT_USER = "SIGNOUT_USER";
+export const SIGNOUT_USER_SUCCESS = "SIGNOUT_USER_SUCCESS";
+export const INIT_URL = "INIT_URL";
+export const USER_DATA = "user_data";
+export const USER_TOKEN_SET = "user_token_set";
+export const DONE_REFRESHING_TOKEN = "done_refreshing_token";
+export const ERROR_REFRESHING_TOKEN = "error_refreshing_token";
+export const REFRESHING_TOKEN = "refreshing_token";
+
+export const SIGNUP_DUPLICATE_EMAIL = "signup_duplicate_email";
+export const SIGNIN_MSG_STATUS = "signin_msg_status";
+
+//Data const
+export const CURRENCIES_DATA = "CURRENCIES_DATA";
+export const TYPES_DATA = "TYPES_DATA";
+export const LANGUAGES_DATA = "LANGUAGES_DATA";
+export const CHANNEL_MANAGERS_DATA = "CHANNEL_MANAGERS_DATA";
+export const COUNTRIES_DATA = "COUNTRIES_DATA";
+
+// PROPERTY_DATA
+export const PROPERTY_DATA = "PROPERTY_DATA";
+
+export const PICTURE_TYPES = "PICTURE_TYPES";
+export const PICTURES_DATA = "PICTURES_DATA";
+export const PICTURE_DELETE = "PICTURE_DELETE";
+export const PICTURE_LOAD_ERROR = "PICTURE_LOAD_ERROR";
+export const ADD_UPLOADED_PICTURE_UID = "ADD_UPLOADED_PICTURE_UID";
+export const REMOVE_UPLOADED_PICTURE_UID = "REMOVE_UPLOAED_PICTURE_UID";
+export const SET_UPLOADING_PICTURE = "SET_UPLOADING_PICTURE";
+
+//Profile const
+export const UPDATE_USER_DATA = "UPDATE_USER_DATA";
+export const UPDATE_USER_PASSWORD = "UPDATE_USER_PASSWORD";
+export const UPDATE_USER_DEFAULT_LANGUAGE = "UPDATE_USER_DEFAULT_LANGUAGE";
+
+/* Calendars */
+export const GET_CALENDAR_PACKAGES = 'GET_CALENDAR_PACKAGES';
+export const GET_CALENDAR_PACKAGE_AVAILABILITIES = 'GET_CALENDAR_PACKAGE_AVAILABILITIES';
+export const TOGGLE_RESERVING = 'TOGGLE_RESERVING';
+export const CHANGE_PACKAGE_DATE_DATA = 'CHANGE_PACKAGE_DATE_DATA';
+export const RESET_LOADING = 'RESET_LOADING';
+
+
+/* Ebay */
+export const SET_TOKEN_STATUS = 'SET_TOKEN_STATUS';
+export const SET_SESSION_ID = 'SET_SESSION_ID';
+
+/* Settings */
+export const GET_EBAY_SETTINGS = 'GET_EBAY_SETTINGS';
+export const SET_INITIAL_EBAY_SETTINGS = 'SET_INITIAL_EBAY_SETTINGS';
+export const CHANGE_EBAY_SETTINGS = 'CHANGE_EBAY_SETTINGS';
+export const CHANGE_REPUTIZE = 'CHANGE_REPUTIZE';
+export const ADD_MARKET_PLACE = 'ADD_MARKET_PLACE';
+export const REMOVE_MARKET_PLACE = 'REMOVE_MARKET_PLACE';
+export const ADD_EMAIL_ITEM = 'ADD_EMAIL_ITEM';
+export const REMOVE_EMAIL_ITEM = 'REMOVE_EMAIL_ITEM';
+
+/* FAQ */
+export const GET_FAQ_LIST = 'GET_FAQ_LIST';
+export const GET_CONFIG_DETAILS = 'GET_CONFIG_DETAILS';
+export const GET_DEFAULT_FAQ_TC = 'GET_DEFAULT_FAQ_TC';
+export const CHANGE_FAQ_ITEM = 'CHANGE_FAQ_ITEM';
+export const CHANGE_FAQ = 'CHANGE_FAQ';
+export const ADD_FAQ_ITEM = 'ADD_FAQ_ITEM';
+export const REMOVE_FAQ_ITEM = 'REMOVE_FAQ_ITEM';
+export const CHANGE_TC = 'CHANGE_TC';
+
+/* Summary */
+export const GET_EBAY_OFFERS_LOADING = 'GET_EBAY_OFFERS_LOADING';
+export const GET_EBAY_OFFERS = 'GET_EBAY_OFFERS';
+export const SET_TOTAL_OFFER_COUNT = 'SET_TOTAL_OFFER_COUNT';
+export const STOP_EBAY_OFFER = 'STOP_EBAY_OFFER';
+export const REMOVE_EBAY_OFFER = 'REMOVE_EBAY_OFFER';
+
+/* Messages */
+export const GET_EBAY_MESSAGES = 'GET_EBAY_MESSAGES';
+export const GET_EBAY_MESSAGES_LOADING = "GET_EBAY_MESSAGES_LOADING"
+export const ARCHIVE_EBAY_MESSAGE = 'ARCHIVE_EBAY_MESSAGE';
+
+/* ARCHIVE */
+export const GET_EBAY_ARCHIVE_MAILS = 'GET_EBAY_ARCHIVE_MAILS';
+export const RESET_EBAY_ARCHIVE_MAILS = 'RESET_EBAY_ARCHIVE_MAILS';
+
+/* Rooms */
+export const ROOMS_DATA = 'ROOMS_DATA';
+export const ROOM_AMENITIES = 'ROOM_AMENITIES';
+export const ROOM_AVAILABILITY_CALENDAR = 'ROOM_AVAILABILITY_CALENDAR';
+
+/* Amenities */
+export const AMENITIES_DATA = 'AMENITIES_DATA';
+
+/* Common */
+export const SET_NOTIFICATION_MESSAGE = 'SET_NOTIFICATION_MESSAGE';

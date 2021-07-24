@@ -1,0 +1,197 @@
+.ebaySettings {
+
+  h3 span {
+    color: #ff0000;
+  }
+
+  &-form {
+    margin-bottom: 40px;
+
+    .info {
+      display: flex;
+      margin-bottom: 35px;
+      padding: 28px 24px;
+      border: 1px solid #68C5DB;
+      border-radius: 10px;
+      background-color: rgba(104,197,219,0.4);
+
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        fill: #000000;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: #1C2833;
+        font: 400 15px Poppins;
+      }
+    }
+  }
+
+  &-token {
+    display: flex;
+    flex-direction: row;
+
+    .status {
+      flex-grow: 2;
+      .active {
+        color: #679436;
+      }
+      .passive {
+        color: #E55812;
+      }
+      .none {
+        color: #979797;
+      }
+    }
+    .expirationDate {
+      flex-grow: 2;
+    }
+    .buttonContainer {
+      flex-grow: 4;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      button {
+        height: 43px;
+      }
+    }
+
+  }
+
+  &-paymentAccount {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &-marketPlaces {
+    &-labels {
+      display: flex;
+
+      .label {
+        width: 50%;
+
+        &:last-child {
+          transform: translateX(5%);
+        }
+      }
+    }
+  }
+
+  &-emails {
+    .field {
+      display: flex;
+    }
+
+    .addBtn {
+      text-align: right;
+    }
+    &-button {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -20px;
+    }
+    &-items {
+
+      &-form {
+        padding: 12px !important;
+
+        .row {
+          align-items: center;
+
+          input {
+            margin: 8px 0;
+
+            &[type="checkbox"] {
+              height: max-content;
+              margin: 0;
+            }
+          }
+
+          .field-error-label {
+            top: calc(100% - 5px);
+          }
+        }
+
+        &-checkboxes {
+          display: flex;
+          height: 100%;
+
+          &-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-right: 37px;
+
+            .invalid-field{
+              .ant-checkbox .ant-checkbox-inner {
+                border-color: red;                 // for mouse focus color
+              }
+            }
+            .ant-checkbox-wrapper {
+              margin: 0;
+
+              &:first-child {
+                margin-bottom: 12px;
+              }
+
+              &:last-child {
+                margin-right: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .grouped {
+    border: 1px solid #E3E6EE;
+    border-radius: 4px;
+    padding: 20px 12px;
+    margin-bottom: 22px;
+    position: relative;
+
+    .row {
+      margin-bottom: 0;
+
+      .field {
+        flex-basis: 48%;
+
+        //&-error-label {
+        //  top: calc(100% - 5px);
+        //}
+      }
+    }
+
+    .closer {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      svg {
+        fill: #D0021B;
+        width: 20px;
+        height: 20px;
+        transform: translate(50%, -50%);
+      }
+    }
+  }
+
+  .form {
+    .row {
+      .field {
+        max-width: 500px;
+        flex-basis: 50%;
+      }
+    }
+  }
+
+  .field {
+    max-width: 500px;
+    flex-basis: 50%;
+  }
+}

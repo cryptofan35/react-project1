@@ -1,0 +1,35 @@
+/* Custom modal Style */
+.modal__delete {
+  max-width: 392px;
+
+  & .ant-modal-body {
+    padding: 75px 48px 48px 48px;
+  }
+
+  & .ant-modal-close {
+    display: none;
+  }
+
+  &-title {
+    color: #A3A3A3;
+    font: 500 16px/25px Poppins;
+    text-align: center;
+  }
+
+  &-buttons {
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+
+    & button {
+      font: 500 15px/19px Poppins;
+      height: auto;
+      padding: 11px;
+      min-width: 77px;
+
+      &:not(:last-child) {
+        margin-right: 70px;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.status-row {
+  display: inline-block;
+  margin-left: 16px;
+  vertical-align: middle;
+
+  &-label {
+    font: 400 12px Poppins;
+    color: #A3A3A3;
+  }
+  
+  &-bullet {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #E3ECF6;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+  &__new {
+    .status-row-bullet {
+      background: #FFFFFF;
+    }
+  }
+  
+  &__future {
+    .status-row-bullet {
+      background: #FFCA3A;
+      border-color: #FFCA3A;
+    }
+  }
+  
+  &__running {
+    .status-row-bullet {
+      background: #58C290;
+      border-color: #58C290;
+    }
+  }
+  
+  &__failed {
+    .status-row-bullet {
+      background: #F18AA3;
+      border-color: #F18AA3;
+    }
+  }
+  
+  &__past {
+    .status-row-bullet {
+      background: #E3E6EE;
+      border-color: #E3E6EE;
+    }
+  }
+}

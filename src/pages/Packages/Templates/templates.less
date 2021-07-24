@@ -1,0 +1,150 @@
+.packages {
+  &__button:disabled {
+    background-color: #6693A9 !important;
+    border-color: #6693A9 !important;
+  }
+
+  &__content-form {
+    position: relative;
+  }
+
+  &__table {
+    .ant-table-thead>tr>th {
+      background-color: unset;
+    }
+
+    .ant-table-tbody>tr>td {
+      padding: 15px;
+    }
+
+    .ant-spin-container {
+      min-height: calc(100vh - 255px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .ant-pagination-prev,
+    .ant-pagination-jump-prev,
+    .ant-pagination-jump-next {
+      margin-right: 5px;
+    }
+
+    .ant-pagination-item {
+      border: none;
+      margin-right: 5px;
+
+      & a {
+        color: #005c81;
+        font-family: "Poppins";
+        font-size: 12px;
+      }
+
+      &:hover {
+        background-color: #f0f3fe;
+        opacity: 0.7;
+      }
+
+      &-active {
+        background-color: #005c81;
+
+        &:hover {
+          background-color: #005c81;
+          opacity: 1;
+        }
+
+        & a {
+          color: #fff;
+        }
+      }
+    }
+
+    .ant-table-pagination.ant-pagination {
+      margin: 30px 0 0 0;
+    }
+
+    .ant-pagination-prev button,
+    .ant-pagination-next button {
+      border: none;
+      background-color: #f0f3fe;
+    }
+
+    .ant-pagination-next button {
+      background-color: #f0f3fe;
+
+      &>span {
+        transform: rotate(-90deg);
+        background: center no-repeat url("../../../assets/images/arrow-down.png");
+
+        &>svg path {
+          display: none;
+        }
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    .ant-pagination-prev button {
+      background-color: #f0f3fe;
+
+      &>span {
+        transform: rotate(90deg);
+        background: center no-repeat url("../../../assets/images/arrow-down.png");
+
+        &>svg path {
+          display: none;
+        }
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    .ant-pagination-disabled {
+      opacity: 0.4;
+
+      &:hover {
+        opacity: 0.4;
+      }
+    }
+  }
+
+  &__status-wrapper {
+    position: absolute;
+    right: 0px;
+    margin-right: 30px;
+    bottom: 48px;
+    margin-left: 400px;
+  }
+
+  &__modal {
+    .ant-modal-header {
+      border-bottom: none;
+      padding-top: 24px;
+    }
+
+    .ant-modal-close {
+      top: 6px;
+      right: 6px
+    }
+
+    .ant-modal-body {
+      padding-top: 10px;
+    }
+
+    .ant-modal-title {
+      color: #005c81;
+      font: 400 16px Poppins-Medium;
+    }
+  }
+
+  &__tooltip {
+    .ant-tooltip-inner {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}

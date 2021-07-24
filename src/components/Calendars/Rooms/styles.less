@@ -1,0 +1,88 @@
+.months-container{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.ant-picker-cell-disabled::before {
+  background: none;
+}
+
+.first-column {
+  padding-right: 20px;
+}
+
+.second-column {
+  padding-left: 20px;
+}
+
+.bottom-line {
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+  .info-text {
+    color: #A3A3A3;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+
+  .icons {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &.has-no-channel-manager {
+      justify-content: flex-end;
+    }
+
+    .channel-manager {
+      color: #A3A3A3;
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 18px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .statuses {
+      display: flex;
+      flex-direction: 'row';
+      color: #A3A3A3;
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 18px;
+
+      .available {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .icon {
+          background-color: #57C18F;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          margin-right: 3px;
+        }
+      }
+
+      .not-available {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 8px;
+        .icon {
+          background-color: #E35C19;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          margin-right: 3px;
+        }
+      }
+
+    }
+  }
+
+}

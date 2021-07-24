@@ -1,0 +1,132 @@
+.ant-picker-cell {
+  cursor: default;
+}
+
+.day-number {
+  height: 32px;
+  width: 32px;
+  opacity: 0.99;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  color: white;
+  
+  &.disabled {
+    background-color: rgba(163,163,163,0.1);
+    cursor: default;
+    text-decoration: line-through;
+    color: #A3A3A3;
+  }
+
+  &.available {
+    background-color: #56C18F;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  &.not-available {
+    background-color: #E45B17;
+    cursor: pointer;
+    z-index: 1000;
+  }
+}
+
+.cell {
+  width: 66px;
+  height: 66px;
+  border-radius: 10px;
+  background-color: rgba(227,230,248,1.0);
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &.disabled {
+    background-color: rgba(227,230,238,0.15);
+    justify-content: flex-start;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .reload {
+      cursor: pointer;
+      z-index: 1000;
+    }
+  }
+
+  .bottom {
+    margin-top: 3px;
+    
+    .quantity-box {
+      margin-left: 3px;
+      margin-right: 3px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:flex-end;
+      padding-right: 3px;
+      border-radius: 6px;
+      background-color: #FFFFFF;
+      height: 24px;
+
+      .quantity-input-text {
+        width: 54px;
+        height: 24px;
+        border: none;
+        text-align: right;
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        appearance: textfield;
+
+        &:focus {
+          outline: none;
+        }
+
+        &:hover {
+          width: 44px;
+        }
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+        }
+        
+      }
+    }
+    
+    .up-down {
+      font-size: 9px;
+      margin-left: 3px;
+      flex-direction: column;
+      justify-content: center;
+      display: none;
+      
+      .up {
+        cursor: pointer;
+      }
+
+      .down {
+        transform: scaleY(-1);
+        cursor: pointer;
+      }
+    }
+
+    &:hover {
+      .up-down {
+        display: flex;
+      }
+    }
+
+  }
+
+  
+
+}

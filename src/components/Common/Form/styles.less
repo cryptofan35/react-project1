@@ -1,0 +1,53 @@
+.formik {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    min-height: 104px;
+    max-height: 104px;
+    height: 104px;
+    color: #1C2833;
+    font: 400 14px Poppins;
+    padding: 14px 12px;
+  }
+
+  &-footer {
+    display: flex;
+
+    button {
+      font: 500 15px Poppins;
+      padding: 12px 16px 10px !important;
+      margin-bottom: 17px;
+      cursor: pointer;
+      transition: all .3s ease;
+      border-radius: 4px;
+      border: none;
+      line-height: 21px;
+    }
+
+    &-submit {
+      background-color: #1F5F88;
+      color: #ffffff;
+
+      &[disabled],
+      &:hover {
+        background-color: #6693A9;
+      }
+    }
+
+    &-secondary {
+      background-color: transparent;
+      color: #1F5F88;
+      margin-right: 15px;
+
+      &[disabled],
+      &:hover {
+        background-color: #1F5F88;
+        color: #ffffff;
+      }
+    }
+  }
+}

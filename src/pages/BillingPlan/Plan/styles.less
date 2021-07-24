@@ -1,0 +1,253 @@
+.Plan {
+  margin-bottom: 46px;
+
+  .fullservice-badge {
+    color: #005B83;
+    border: 1px solid #005B83;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    padding: 4px 10px 3px 35px;
+    font: 600 12px Poppins;
+
+    img {
+      position: absolute;
+      top: -7px;
+      left: -6px;
+      width: 39px;
+      height: 39px;
+      fill:#86B817;
+      border-radius: 20px;
+    }
+
+    span {
+      white-space: nowrap;
+    }
+
+  }
+
+  .plan-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    margin-left: 14px;
+    margin-right: 10px;
+    min-height: 562px;
+
+    .status-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      span.expiration {
+        font: 700 14px Poppins;
+        color: #86B817;
+      }
+
+      p {
+        margin-bottom: 0;
+        font: 400 14px Poppins;
+      }
+    }
+
+    .plan-card {
+      display: flex;
+      min-height: 262px;
+      border: 1px solid #005C81;
+      box-sizing: border-box;
+      border-radius: 10px;
+      padding: 20px;
+      flex-direction: row;
+      justify-content: space-between;
+      overflow: hidden;
+
+      .left-column {
+        display:flex;
+        flex-direction: column;
+        max-width: 50%;
+        position:relative;
+
+        p {
+          font: 400 14px Poppins;
+        }
+
+        .headline {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          .title {
+            margin-right: 10px;
+            font: 400 24px Poppins;
+            color: #005C81;
+          }
+        }
+
+        .plan-ends {
+          position: absolute;
+          left:40px;
+          bottom:-20px;
+          font-size:12px;
+          white-space:nowrap;
+        }
+      }
+
+      .right-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+
+        .price-option {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          column-gap: 30px;
+          align-items: center;
+
+          .button-group {
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            margin-bottom: 20px;
+            position: relative;
+
+            .ant-btn {
+              min-width: 160px;
+            }
+
+            .ant-btn.disabled {
+              cursor: default;
+            }
+
+            .ant-btn-secondary {
+              border: solid 1px #005C81;
+            }
+
+            .ant-btn:not(:last-child) {
+              margin-right: 0;
+            }
+
+            .button-group:last-child {
+              margin-bottom: 0;
+            }
+
+            .main-price {
+              font: 400 18px Poppins;
+              color:#005C81;
+            }
+
+            .secondary-price {
+              font: 400 14px Poppins;
+            }
+
+            .secondary-note {
+              font: 400 14px Poppins;
+              position: absolute;
+              top: 35px;
+
+              > .anticon-check svg {
+                fill: #86B817;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .info-card {
+      display: flex;
+      flex-direction: row;
+      row-gap: 10px;
+      border-radius: 4px;
+      background: rgba(31, 95, 136, 0.15);
+      color: #005C81;
+      align-items: center;
+      padding: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        fill: #005C81;
+      }
+    }
+
+    .expired-card {
+      display: flex;
+      flex-direction: row;
+      row-gap: 10px;
+      border-radius: 4px;
+      background: rgba(230, 53, 59, 0.2);
+      color: #3F4254;
+      align-items: center;
+      padding: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        fill: #E6353B;
+      }
+    }
+
+    .comparison-card {
+      padding: 10px;
+
+      .ant-table-wrapper {
+        width: 100%;
+        cursor: default;
+      }
+
+      .ant-table-tbody > tr > td:not(:first-child) {
+        text-align: center;
+      }
+
+      .ant-table-tbody > tr > td {
+        border: 0;
+        padding: 10px 10px;
+        font-size: 14px;
+        color: #1C2833;
+      }
+
+      .ant-table-tbody {
+        .anticon-close svg {
+          fill: #E6353B
+        }
+
+        .anticon-check svg {
+          fill: #86B817
+        }
+
+        svg {
+          width: 20px;
+          height: 16px;
+        }
+      }
+
+      .ant-table-thead > tr > th {
+        border: 0;
+        text-align: center;
+
+        .fullservice-badge {
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .more-info {
+      margin: 0 auto;
+      display: flex;
+      margin-bottom: 30px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+}

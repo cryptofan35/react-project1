@@ -1,0 +1,123 @@
+@import "../../../styles/global/variables.less";
+@import "../../../styles/variables.less";
+
+.property-import-data {
+  & .property-form-wrapper {
+    padding: 30px;
+
+    & .form-title-wrapper .form-title {
+      font: 14px/1.5 'Poppins';
+      color: #1C2833;
+      border: none;
+    }
+
+    & .form-warning {
+      color: #005C81;
+      display: flex;
+      align-items: center;
+
+      &:before {
+        content: url("../@{image_path}/warn-blue.png");
+        height: 20px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  & .import {
+
+    &__data {
+      &-title {
+        color: #3F4254;
+        font: 500 13px/20px Poppins;
+      }
+
+      &-content {
+        box-sizing: border-box;
+        min-height: 120px;
+        border: 1px solid #005C81;
+        border-radius: 4px;
+        padding: 12px 14px 12px 12px;
+        font: 14px/21px Poppins;
+        color: #1C2833;
+
+        &-title {
+          font: 500 14px/21px Poppins;
+        }
+
+        &-address {
+          margin-top: 14px;
+        }
+      }
+    }
+  }
+
+  & .input-wraper {
+    margin-bottom: 15px;
+  }
+
+  & .navigation {
+    margin-top: 193px;
+
+    &.small-mt {
+      margin-top: 94px;
+    }
+  }
+
+  & .import__progress {
+    margin-top: 60px;
+
+    &-value {
+      margin-bottom: 13px;
+      color: #1C2833;
+      font: 500 13px/20px Poppins;
+      text-align: center;
+      display: block;
+    }
+
+    &-line {
+      &.ant-progress-status-success .ant-progress-bg {
+        background-color: #52c41a !important;
+      }
+      &.ant-progress-status-exception .ant-progress-bg {
+        background-color: #f5222d !important;
+      }
+    }
+
+    &-text {
+      margin-top: 7px;
+      color: #A3A3A3;
+      font: 14px/1.5 Poppins;
+      text-align: center;
+    }
+  }
+
+  & .import__url {
+    margin-bottom: 30px;
+    &-title {
+      color: #3F4254;
+      font: 500 13px/20px Poppins;
+    }
+
+    &-value {
+      margin-top: 18px;
+      color: #3F4254;
+      font: 14px/1.5 Poppins;
+      overflow-wrap: break-word;
+    }
+  }
+
+  & .import__date {
+    margin-top: 70px;
+
+    &-title {
+      color: #005C81;
+      font: 500 13px/20px Poppins;
+    }
+
+    &-value {
+      color: #005C81;
+      font: 13px/20px Poppins;
+    }
+  }
+}

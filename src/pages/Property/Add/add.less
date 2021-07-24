@@ -1,0 +1,57 @@
+@import "../../../styles/variables.less";
+
+.home-currency-modal {
+  max-width: 640px;
+  height: 275px;
+
+  .ant-modal-close {
+    display: none;
+  }
+
+  .ant-modal-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    .ant-modal-body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .modal-title {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        color: #545454;
+        margin: 24px 24px 24px 0px;
+        align-self:flex-start;
+
+      }
+
+      .modal-footer {
+        align-self:center
+      }
+
+      .ant-select {
+        width: 320px;
+      }
+  
+      .ant-btn {
+        margin-top: 50px;
+        padding: 12px 14px;
+        height: unset;
+  
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+  
+        &:first-child {
+          margin-right: 50px;
+        }
+      }
+    }
+
+    
+  }
+}

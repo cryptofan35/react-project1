@@ -1,0 +1,145 @@
+@import "../../styles/variables.less";
+
+.rooms {
+  &__content-form {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  &__table {
+    .ant-table-thead>tr>th {
+      background-color: unset;
+    }
+
+    .ant-table-tbody>tr>td {
+      padding: 15px;
+    }
+
+    .ant-spin-container {
+      min-height: calc(100vh - 255px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .ant-pagination-prev,
+    .ant-pagination-jump-prev,
+    .ant-pagination-jump-next {
+      margin-right: 5px;
+    }
+
+    .ant-pagination-item {
+      border: none;
+      margin-right: 5px;
+
+      & a {
+        color: #005c81;
+        //font-family: "Poppins";
+        font-size: 12px;
+      }
+
+      &:hover {
+        background-color: #f0f3fe;
+        opacity: 0.7;
+      }
+
+      &-active {
+        background-color: #005c81;
+
+        &:hover {
+          background-color: #005c81;
+          opacity: 1;
+        }
+
+        & a {
+          color: #fff;
+        }
+      }
+    }
+
+    .ant-table-pagination.ant-pagination {
+      margin: 30px 0 0 0;
+    }
+
+    .ant-pagination-prev button,
+    .ant-pagination-next button {
+      border: none;
+      background-color: #f0f3fe;
+    }
+
+    .ant-pagination-next button {
+      background-color: #f0f3fe;
+
+      &>span {
+        transform: rotate(-90deg);
+        background: center no-repeat url("../../assets/images/arrow-down.png");
+
+        &>svg path {
+          display: none;
+        }
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    .ant-pagination-prev button {
+      background-color: #f0f3fe;
+
+      &>span {
+        transform: rotate(90deg);
+        background: center no-repeat url("../../assets/images/arrow-down.png");
+
+        &>svg path {
+          display: none;
+        }
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    .ant-pagination-disabled {
+      opacity: 0.4;
+
+      &:hover {
+        opacity: 0.4;
+      }
+    }
+  }
+}
+
+.arrow-right-icon {
+  width: 13px;
+  height: 13px;
+  transform: rotate(90deg);
+  background: center no-repeat url("../../assets/images/arrow-down.png");
+}
+
+.delete-icon {
+  width: 24px;
+  height: 24px;
+  background: center no-repeat url("../../assets/images/delete.png");
+}
+
+.calendar-icon {
+  width: 24px;
+  height: 24px;
+  background: center no-repeat url("../../assets/images/calendar.png");
+}
+
+.edit-icon {
+  width: 24px;
+  height: 24px;
+  background: center no-repeat url("../../assets/images/edit.png");
+}
+
+@-moz-document url-prefix() {
+  .rooms {
+    &__content-form {
+      padding-bottom: 24px;
+    }
+  }
+}

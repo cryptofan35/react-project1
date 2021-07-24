@@ -1,0 +1,48 @@
+.redux-toastr {
+
+  .top-right {
+    top: 80px !important;
+
+    .toastr {
+      background-color: #005C81 !important;
+      height: 35px !important;
+      min-height: 35px !important;
+
+      .rrt-holder {
+        span {
+          top: 50%;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          position: absolute;
+        }
+
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      .rrt-middle-container {
+        height: 35px;
+        margin-left: 65px;
+
+        .rrt-title {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          font: 500 14px Poppins-Medium;
+        }
+      }
+
+      &.customize-faq {
+        height: 50px !important;
+        min-height: 50px !important;
+        .rrt-middle-container{
+          height: 50px;
+          width: 80%;
+        }
+      }
+    }
+  }
+}

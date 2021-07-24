@@ -1,0 +1,74 @@
+/*Auth Styles*/
+
+.@{class-prefix}-auth-container {
+  position   : relative;
+  height     : 100%;
+  font-family: 'Poppins';
+  font-weight: 400;
+  .flex-only(1);
+
+  .flex-display(flex, row, wrap);
+  .align-items(center);
+
+  & .@{class-prefix}-app-logo-container {
+    position: absolute;
+    width   : 100%;
+    height  : 120px;
+    top     : 0;
+
+    & img {
+      margin-top : 68px;
+      margin-left: 151px;
+    }
+  }
+}
+
+.@{class-prefix}-verify-email-container {
+  max-width : 620px;
+  color     : #1C2833;
+  font-size : 14px;
+  text-align: center;
+  margin    : 0 auto;
+
+  & .@{class-prefix}-verify-email-title {
+    font-size  : 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+
+  & .@{class-prefix}-verify-email-subtitle {
+    margin-top : 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+  }
+
+  & .@{class-prefix}-verify-email-content {
+    color        : #191A1F;
+    font-family  : 'Poppins';
+    font-weight  : 400;
+    margin-bottom: 50px;
+
+    & .email {
+      color      : #1F5F88;
+      font-size  : 16px;
+      font-family: 'Poppins';
+      font-weight: 600;
+    }
+  }
+
+  & .@{class-prefix}-verify-email-iamge-container {
+    margin: 50px auto;
+  }
+
+  & .@{class-prefix}-verify-email-button-container {
+    & .ant-btn {
+      font-size  : 15px;
+      font-family: 'Poppins';
+      font-weight: 500;
+      padding    : 16px 20px;
+      height     : 45px;
+      margin     : 0 20px;
+      line-height: 1px;
+    }
+  }
+}

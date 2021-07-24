@@ -1,0 +1,158 @@
+/*Login Styles*/
+
+.@{class-prefix}-login-content {
+  max-width       : 500px;
+  width           : 94%;
+  margin          : auto;
+  padding         : 35px 35px 20px;
+  background-color: @white-color;
+  color           : #7A7F93;
+  font-family     : 'Poppins';
+  font-weight: 400;
+
+  & .ant-form label,
+  .ant-form-item {
+    font-size: 12px;
+  }
+
+  & .ant-input {
+    background-color: @grey-3;
+    height          : 47px;
+    padding         : 14px 15px;
+    border-color    : @grey-3;
+    border-radius   : 4px;
+
+    &:focus {
+      box-shadow  : none;
+      border-color: @grey-3;
+    }
+
+    &:hover {
+      border-color: @grey-3;
+    }
+  }
+
+  & .is-danger {
+    & .@{class-prefix}-require {
+      color    : #f5222d;
+      font-size: 12px;
+    }
+
+    & .ant-form-item-explain {
+      font-size: 12px;
+    }
+
+    & .ant-input {
+      border-color: #f5222d;
+    }
+
+    & .ant-checkbox-inner {
+      border-color: #f5222d;
+    }
+  }
+
+  & .ant-form-item-control-wrapper {
+    width: 100%;
+  }
+
+  & .ant-form-item-children {
+    display: block;
+  }
+
+  & .@{class-prefix}-login-form-remember-forgot {
+    display  : flex;
+    font-size: 12px;
+
+    & .ant-form-item-control-input {
+      min-height: 18px;
+    }
+
+    & label {
+      font-size: 12px;
+
+      & a {
+        font-family: 'Poppins';
+        font-weight: 500;
+      }
+    }
+
+  }
+
+  & .ant-checkbox-inner {
+    border-radius: 3px;
+  }
+
+  @media screen and (max-width: @screen-xs-max) {
+    padding: 20px 20px 10px;
+  }
+}
+
+.@{class-prefix}-login-header {
+  color      : #1C2833;
+  font-size  : 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  text-align : center;
+
+  & .@{class-prefix}-login-header-require-text {
+    color      : #7A7F93;
+    font-size  : 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top : 15px;
+  }
+
+
+  @media screen and (max-width: @screen-xs-max) {
+    margin-bottom: 15px;
+  }
+}
+
+.@{class-prefix}-login-form-container {
+  margin-top: 39px;
+
+  & .@{class-prefix}-login-form-input {
+    margin-bottom: 18px;
+  }
+
+  & .@{class-prefix}-login-form-button-container {
+    color        : #FFFFFF;
+    font-size    : 12px;
+    text-align   : center;
+    font-family  : 'Poppins';
+    font-weight: 700;
+    margin-top   : 65px;
+    margin-bottom: 39px;
+
+    & .@{class-prefix}-login-form-button {
+      width: 120px;
+    }
+
+    & .@{class-prefix}-signup-button {
+      width: 140px;
+    }
+
+    & .@{class-prefix}-request-button {
+      width: 95px;
+    }
+
+    & .@{class-prefix}-reset-button {
+      width: 77px;
+    }
+  }
+
+  & .@{class-prefix}-login-form-bottom-container {
+    text-align: center;
+
+    & a {
+      font-family: 'Poppins';
+      font-weight: 500;
+    }
+  }
+
+  & .ant-form-item {
+    margin-left  : 0;
+    margin-right : 0;
+    margin-bottom: 18px;
+  }
+}

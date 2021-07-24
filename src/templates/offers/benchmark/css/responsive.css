@@ -1,0 +1,848 @@
+ 
+/*** Responsive screens ***/
+ @media screen and (min-width: 481px) and (max-width: 800px) {
+     .offerpics img {
+         width: 100%;
+    }
+     .carousel-inner {
+         min-height: 184px;
+    }
+     .carousel1-inner {
+         min-height: 184px;
+    }
+     .news_container {
+         padding-top: 15px !important;
+    }
+}
+ @media screen and (min-width: 480px) and (max-width: 700px) {
+     .offerpics img {
+         width: 100%;
+    }
+     .currentdate {
+         width: 353px !important;
+    }
+     #tabbed .calender_block {
+         max-width: 353px;
+    }
+}
+ @media only screen and (max-width: 448px){
+     .reputize_new {
+         float: left !important;
+         padding-top: 12px;
+    }
+   
+     .gallery-sec img.cssbox_thumb {
+         width: 100%;
+         height: 210px !important;
+    }
+     .gallery-sec ul li {
+         height: 190px !important;
+    }
+     .cssbox a {
+         width: 97.1% !important;
+    }
+}
+ @media screen and (max-width: 1023px) {
+     .currentdate img {
+         margin: 8px 0px 0px 0px;
+    }
+     #tabbed .calender_block {
+         max-width: 353px;
+    }
+     #cc-slider {
+         text-align: center;
+         max-width: 355px;
+         height: 185px;
+         margin-top: 42px;
+    }
+     #tabbed {
+         width: 100%;
+    }
+     .carousel-item img {
+         width: 100%;
+    }
+     #tabbed .wrapper.shadow {
+         margin-top: 0px;
+    }
+     .innercontent>h4 {
+         margin-bottom: 0px !important;
+    }
+}
+ @media (min-width:1024px) {
+     .carousel-inner img {
+         height: 470px;
+    }
+}
+ @media screen and (min-width: 1024px) and (max-width: 1100px) {
+     .offerpics img {
+         width: auto;
+    }
+   
+}
+ @media only screen and (max-width: 370px) {
+     .gallery-sec ul li {
+         height: 190px;
+         width: 100% !important;
+    }
+     .gallery-sec ul li img {
+         height: auto;
+         width: 100%;
+         margin-left: 0px;
+    }
+     .offerpics img {
+         width: 100%;
+    }
+}
+ @media only screen and (min-width: 320px) and (max-width: 480px) {
+     .tabset>label {
+         padding: 10px 40px 10px;
+    }
+
+     .gs-logo img {
+         float: left;
+         padding-top: 8px;
+         padding-left: 8px;
+         padding-bottom: 0px;
+    }
+     .newicons h3 {
+         font-size: 13px !important;
+    }
+     .newicons h3 span {
+         display: block;
+    }
+     .reputize_new img {
+         text-align: center;
+    }
+     #cc-slider {
+         margin-top: 60px;
+    }
+     .calhide h4 {
+         font-weight: bold;
+         width: 231px;
+         padding-bottom: 8px;
+    }
+     .imptext {
+         font-size: 14px;
+         margin: 0px;
+    }
+     .offerpics img {
+         width: 100%;
+    }
+     #tabbed .calender_block {
+         max-width: 353px;
+    }
+     .currentdate {
+         text-align: center;
+         width: 192px;
+         padding: 0px 0px;
+         margin: 0px 0px;
+    }
+     .innercontent>h4 {
+         margin-bottom: 20px !important;
+    }
+     .news_container {
+         padding-top: 15px !important;
+    }
+     .carousel {
+         min-height: auto !important;
+         position: relative;
+    }
+     #tabbed .calender_block {
+         max-width: 177px;
+    }
+     #month1:checked~#controls1 label:nth-child(35), #month2:checked~#controls1 label:nth-child(36), #month3:checked~#controls1 label:nth-child(37), #month4:checked~#controls1 label:nth-child(1), #month5:checked~#controls1 label:nth-child(2), #month6:checked~#controls1 label:nth-child(3), #month7:checked~#controls1 label:nth-child(4), #month8:checked~#controls1 label:nth-child(5), #month9:checked~#controls1 label:nth-child(6), #month10:checked~#controls1 label:nth-child(7), #month11:checked~#controls1 label:nth-child(8), #month12:checked~#controls1 label:nth-child(9), #month13:checked~#controls1 label:nth-child(10), #month14:checked~#controls1 label:nth-child(11), #month15:checked~#controls1 label:nth-child(12), #month16:checked~#controls1 label:nth-child(13), #month17:checked~#controls1 label:nth-child(14), #month18:checked~#controls1 label:nth-child(15), #month19:checked~#controls1 label:nth-child(16), #month20:checked~#controls1 label:nth-child(17), #month21:checked~#controls1 label:nth-child(18), #month22:checked~#controls1 label:nth-child(19), #month23:checked~#controls1 label:nth-child(20), #month24:checked~#controls1 label:nth-child(21), #month25:checked~#controls1 label:nth-child(22), #month26:checked~#controls1 label:nth-child(23), #month27:checked~#controls1 label:nth-child(24), #month28:checked~#controls1 label:nth-child(25), #month29:checked~#controls1 label:nth-child(26), #month30:checked~#controls1 label:nth-child(27), #month31:checked~#controls1 label:nth-child(28), #month32:checked~#controls1 label:nth-child(29), #month33:checked~#controls1 label:nth-child(30), #month34:checked~#controls1 label:nth-child(31), #month35:checked~#controls1 label:nth-child(32), #month36:checked~#controls1 label:nth-child(33), #month37:checked~#controls1 label:nth-child(34) {
+         display: none !important;
+    }
+     #month1:checked~#controls label:nth-child(4), #month2:checked~#controls label:nth-child(5), #month3:checked~#controls label:nth-child(6), #month4:checked~#controls label:nth-child(7), #month5:checked~#controls label:nth-child(8), #month6:checked~#controls label:nth-child(9), #month7:checked~#controls label:nth-child(10), #month8:checked~#controls label:nth-child(11), #month9:checked~#controls label:nth-child(12), #month10:checked~#controls label:nth-child(13), #month11:checked~#controls label:nth-child(14), #month12:checked~#controls label:nth-child(15), #month13:checked~#controls label:nth-child(16), #month14:checked~#controls label:nth-child(17), #month15:checked~#controls label:nth-child(18), #month16:checked~#controls label:nth-child(19), #month17:checked~#controls label:nth-child(20), #month18:checked~#controls label:nth-child(21), #month19:checked~#controls label:nth-child(22), #month20:checked~#controls label:nth-child(23), #month21:checked~#controls label:nth-child(24), #month22:checked~#controls label:nth-child(25), #month23:checked~#controls label:nth-child(26), #month24:checked~#controls label:nth-child(27), #month25:checked~#controls label:nth-child(28), #month26:checked~#controls label:nth-child(29), #month27:checked~#controls label:nth-child(30), #month28:checked~#controls label:nth-child(31), #month29:checked~#controls label:nth-child(32), #month30:checked~#controls label:nth-child(33), #month31:checked~#controls label:nth-child(34), #month32:checked~#controls label:nth-child(35), #month33:checked~#controls label:nth-child(36), #month34:checked~#controls label:nth-child(37), #month35:checked~#controls label:nth-child(1), #month36:checked~#controls label:nth-child(2), #month37:checked~#controls label:nth-child(3) {
+         display: none !important;
+    }
+     #month1:checked~#cc-slides .inner {
+         cursor: default !important;
+    }
+     #month2:checked~#cc-slides .inner {
+         margin-left: -100.4%;
+    }
+     #month3:checked~#cc-slides .inner {
+         margin-left: -200.4%;
+    }
+     #month4:checked~#cc-slides .inner {
+         margin-left: -300.4%;
+    }
+     #month5:checked~#cc-slides .inner {
+         margin-left: -400.4%;
+    }
+     #month6:checked~#cc-slides .inner {
+         margin-left: -500.4%;
+    }
+     #month7:checked~#cc-slides .inner {
+         margin-left: -600.4%;
+    }
+     #month8:checked~#cc-slides .inner {
+         margin-left: -701.7%;
+    }
+     #month9:checked~#cc-slides .inner {
+         margin-left: -802%;
+    }
+     #month10:checked~#cc-slides .inner {
+         margin-left: -901.8%;
+    }
+     #month11:checked~#cc-slides .inner {
+         margin-left: -1002.4%;
+    }
+     #month12:checked~#cc-slides .inner {
+         margin-left: -1102.9%;
+    }
+     #month13:checked~#cc-slides .inner {
+         margin-left: -1202.8%;
+    }
+     #month14:checked~#cc-slides .inner {
+         margin-left: -1303.5%;
+    }
+     #month15:checked~#cc-slides .inner {
+         margin-left: -1403.4%;
+    }
+     #month16:checked~#cc-slides .inner {
+         margin-left: -1503.6%;
+    }
+     #month17:checked~#cc-slides .inner {
+         margin-left: -1604.6%;
+    }
+     #month18:checked~#cc-slides .inner {
+         margin-left: -1704.6%;
+    }
+     #month19:checked~#cc-slides .inner {
+         margin-left: -1804.6%;
+    }
+     #month20:checked~#cc-slides .inner {
+         margin-left: -1904.6%;
+    }
+     #month21:checked~#cc-slides .inner {
+         margin-left: -2004.6%;
+    }
+     #month22:checked~#cc-slides .inner {
+         margin-left: -2105.6%;
+    }
+     #month23:checked~#cc-slides .inner {
+         margin-left: -2205.6%;
+    }
+     #month24:checked~#cc-slides .inner {
+         margin-left: -2306.6%;
+    }
+     #month25:checked~#cc-slides .inner {
+         margin-left: -2406.5%;
+    }
+     #month26:checked~#cc-slides .inner {
+         margin-left: -2507.4%;
+    }
+     #month27:checked~#cc-slides .inner {
+         margin-left: -2607.4%;
+    }
+     #month28:checked~#cc-slides .inner {
+         margin-left: -2707.4%;
+    }
+     #month29:checked~#cc-slides .inner {
+         margin-left: -2807.4%;
+    }
+     #month30:checked~#cc-slides .inner {
+         margin-left: -2907.4%;
+    }
+     #month31:checked~#cc-slides .inner {
+         margin-left: -3008.4%;
+    }
+     #month32:checked~#cc-slides .inner {
+         margin-left: -3109.4%;
+    }
+     #month33:checked~#cc-slides .inner {
+         margin-left: -3208.4%;
+    }
+     #month34:checked~#cc-slides .inner {
+         margin-left: -3309.4%;
+    }
+     #month35:checked~#cc-slides .inner {
+         margin-left: -3410.4%;
+    }
+     #month36:checked~#cc-slides .inner {
+         margin-left: -3510.4%;
+    }
+     #month37:checked~#cc-slides .inner {
+         cursor: default !important;
+    }
+     #month34:checked~#controls label:nth-child(35), #month35:checked~#controls label:nth-child(36) {
+         pointer-events: visible;
+         cursor: default;
+    }
+     #month36:checked~#controls label:nth-child(37) {
+         pointer-events: none;
+         cursor: default;
+    }
+}
+/* Smartphones (portrait) ----------- */
+ @media only screen and (min-width: 481px) and (max-width: 768px) {
+     .header-sec .logo {
+         width: 94%;
+    }
+     #cc-slider {
+         text-align: center;
+         max-width: 355px;
+         height: 185px;
+    }
+     #tabbed .calender_block {
+         max-width: 353px;
+    }
+     .currentdate {
+         text-align: center;
+         width: 150px !important;
+         padding: 0px 20px;
+         margin: 0px 60px;
+    }
+     #month1:checked~#controls label:nth-child(2), #month2:checked~#controls label:nth-child(3), #month3:checked~#controls label:nth-child(4), #month4:checked~#controls label:nth-child(5), #month5:checked~#controls label:nth-child(6), #month6:checked~#controls label:nth-child(7), #month7:checked~#controls label:nth-child(8), #month8:checked~#controls label:nth-child(9), #month9:checked~#controls label:nth-child(10), #month10:checked~#controls label:nth-child(11), #month11:checked~#controls label:nth-child(12), #month12:checked~#controls label:nth-child(13), #month13:checked~#controls label:nth-child(14), #month14:checked~#controls label:nth-child(15), #month15:checked~#controls label:nth-child(16), #month16:checked~#controls label:nth-child(17), #month17:checked~#controls label:nth-child(18), #month18:checked~#controls label:nth-child(19), #month19:checked~#controls label:nth-child(20), #month20:checked~#controls label:nth-child(21), #month21:checked~#controls label:nth-child(22), #month22:checked~#controls label:nth-child(23), #month23:checked~#controls label:nth-child(24), #month24:checked~#controls label:nth-child(25), #month25:checked~#controls label:nth-child(26), #month26:checked~#controls label:nth-child(27), #month27:checked~#controls label:nth-child(28), #month28:checked~#controls label:nth-child(29), #month29:checked~#controls label:nth-child(30), #month30:checked~#controls label:nth-child(31), #month31:checked~#controls label:nth-child(32), #month32:checked~#controls label:nth-child(33), #month33:checked~#controls label:nth-child(34), #month34:checked~#controls label:nth-child(35), #month35:checked~#controls label:nth-child(36), #month36:checked~#controls label:nth-child(37), #month37:checked~#controls label:nth-child(1) {
+         background: #fff url('https://template.cultbay.com/content/images/next.png') no-repeat;
+         float: left;
+         display: block;
+         border: 1px solid #000;
+    }
+     #month34:checked~#controls label:nth-child(35) {
+         pointer-events: none;
+         cursor: default;
+    }
+     #month1:checked~#controls label:nth-child(4), #month2:checked~#controls label:nth-child(5), #month3:checked~#controls label:nth-child(6), #month4:checked~#controls label:nth-child(7), #month5:checked~#controls label:nth-child(8), #month6:checked~#controls label:nth-child(9), #month7:checked~#controls label:nth-child(10), #month8:checked~#controls label:nth-child(11), #month9:checked~#controls label:nth-child(12), #month10:checked~#controls label:nth-child(13), #month11:checked~#controls label:nth-child(14), #month12:checked~#controls label:nth-child(15), #month13:checked~#controls label:nth-child(16), #month14:checked~#controls label:nth-child(17), #month15:checked~#controls label:nth-child(18), #month16:checked~#controls label:nth-child(19), #month17:checked~#controls label:nth-child(20), #month18:checked~#controls label:nth-child(21), #month19:checked~#controls label:nth-child(22), #month20:checked~#controls label:nth-child(23), #month21:checked~#controls label:nth-child(24), #month22:checked~#controls label:nth-child(25), #month23:checked~#controls label:nth-child(26), #month24:checked~#controls label:nth-child(27), #month25:checked~#controls label:nth-child(28), #month26:checked~#controls label:nth-child(29), #month27:checked~#controls label:nth-child(30), #month28:checked~#controls label:nth-child(31), #month29:checked~#controls label:nth-child(32), #month30:checked~#controls label:nth-child(33), #month31:checked~#controls label:nth-child(34), #month32:checked~#controls label:nth-child(35), #month33:checked~#controls label:nth-child(36), #month34:checked~#controls label:nth-child(37), #month35:checked~#controls label:nth-child(1), #month36:checked~#controls label:nth-child(2), #month37:checked~#controls label:nth-child(3) {
+         background: #fff url('https://template.cultbay.com/content/images/next1.png') no-repeat;
+         float: right;
+         display: none;
+         border: 1px solid #000;
+    }
+     #month1:checked~#controls label:nth-child(3), #month2:checked~#controls label:nth-child(4), #month3:checked~#controls label:nth-child(5), #month4:checked~#controls label:nth-child(6), #month5:checked~#controls label:nth-child(7), #month6:checked~#controls label:nth-child(8), #month7:checked~#controls label:nth-child(9), #month8:checked~#controls label:nth-child(10), #month9:checked~#controls label:nth-child(11), #month10:checked~#controls label:nth-child(12), #month11:checked~#controls label:nth-child(13), #month12:checked~#controls label:nth-child(14), #month13:checked~#controls label:nth-child(15), #month14:checked~#controls label:nth-child(16), #month15:checked~#controls label:nth-child(17), #month16:checked~#controls label:nth-child(18), #month17:checked~#controls label:nth-child(19), #month18:checked~#controls label:nth-child(20), #month19:checked~#controls label:nth-child(21), #month20:checked~#controls label:nth-child(22), #month21:checked~#controls label:nth-child(23), #month22:checked~#controls label:nth-child(24), #month23:checked~#controls label:nth-child(25), #month24:checked~#controls label:nth-child(26), #month25:checked~#controls label:nth-child(27), #month26:checked~#controls label:nth-child(28), #month27:checked~#controls label:nth-child(29), #month28:checked~#controls label:nth-child(30), #month29:checked~#controls label:nth-child(31), #month30:checked~#controls label:nth-child(32), #month31:checked~#controls label:nth-child(33), #month32:checked~#controls label:nth-child(34), #month33:checked~#controls label:nth-child(35), #month34:checked~#controls label:nth-child(36), #month35:checked~#controls label:nth-child(37), #month36:checked~#controls label:nth-child(1), #month37:checked~#controls label:nth-child(2) {
+         background: #fff url('https://template.cultbay.com/content/images/next1.png') no-repeat;
+         float: right;
+         display: block;
+         border: 1px solid #000;
+    }
+     #month1:checked~#controls1 label:nth-child(37), #month2:checked~#controls1 label:nth-child(1), #month3:checked~#controls1 label:nth-child(2), #month4:checked~#controls1 label:nth-child(3), #month5:checked~#controls1 label:nth-child(4), #month6:checked~#controls1 label:nth-child(5), #month7:checked~#controls1 label:nth-child(6), #month8:checked~#controls1 label:nth-child(7), #month9:checked~#controls1 label:nth-child(8), #month10:checked~#controls1 label:nth-child(9), #month11:checked~#controls1 label:nth-child(10), #month12:checked~#controls1 label:nth-child(11), #month13:checked~#controls1 label:nth-child(12), #month14:checked~#controls1 label:nth-child(13), #month15:checked~#controls1 label:nth-child(14), #month16:checked~#controls1 label:nth-child(15), #month17:checked~#controls1 label:nth-child(16), #month18:checked~#controls1 label:nth-child(17), #month19:checked~#controls1 label:nth-child(18), #month20:checked~#controls1 label:nth-child(19), #month21:checked~#controls1 label:nth-child(20), #month22:checked~#controls1 label:nth-child(21), #month23:checked~#controls1 label:nth-child(22), #month24:checked~#controls1 label:nth-child(23), #month25:checked~#controls1 label:nth-child(24), #month26:checked~#controls1 label:nth-child(25), #month27:checked~#controls1 label:nth-child(26), #month28:checked~#controls1 label:nth-child(27), #month29:checked~#controls1 label:nth-child(28), #month30:checked~#controls1 label:nth-child(29), #month31:checked~#controls1 label:nth-child(30), #month32:checked~#controls1 label:nth-child(31), #month33:checked~#controls1 label:nth-child(32), #month34:checked~#controls1 label:nth-child(33), #month35:checked~#controls1 label:nth-child(34), #month36:checked~#controls1 label:nth-child(35), #month37:checked~#controls1 label:nth-child(36) {
+         background: #fff url('https://template.cultbay.com/content/images/prev.png') no-repeat;
+         float: right;
+         display: block;
+         border: 1px solid #000;
+    }
+     #month1:checked~#controls1 label:nth-child(35), #month2:checked~#controls1 label:nth-child(36), #month3:checked~#controls1 label:nth-child(37), #month4:checked~#controls1 label:nth-child(1), #month5:checked~#controls1 label:nth-child(2), #month6:checked~#controls1 label:nth-child(3), #month7:checked~#controls1 label:nth-child(4), #month8:checked~#controls1 label:nth-child(5), #month9:checked~#controls1 label:nth-child(6), #month10:checked~#controls1 label:nth-child(7), #month11:checked~#controls1 label:nth-child(8), #month12:checked~#controls1 label:nth-child(9), #month13:checked~#controls1 label:nth-child(10), #month14:checked~#controls1 label:nth-child(11), #month15:checked~#controls1 label:nth-child(12), #month16:checked~#controls1 label:nth-child(13), #month17:checked~#controls1 label:nth-child(14), #month18:checked~#controls1 label:nth-child(15), #month19:checked~#controls1 label:nth-child(16), #month20:checked~#controls1 label:nth-child(17), #month21:checked~#controls1 label:nth-child(18), #month22:checked~#controls1 label:nth-child(19), #month23:checked~#controls1 label:nth-child(20), #month24:checked~#controls1 label:nth-child(21), #month25:checked~#controls1 label:nth-child(22), #month26:checked~#controls1 label:nth-child(23), #month27:checked~#controls1 label:nth-child(24), #month28:checked~#controls1 label:nth-child(25), #month29:checked~#controls1 label:nth-child(26), #month30:checked~#controls1 label:nth-child(27), #month31:checked~#controls1 label:nth-child(28), #month32:checked~#controls1 label:nth-child(29), #month33:checked~#controls1 label:nth-child(30), #month34:checked~#controls1 label:nth-child(31), #month35:checked~#controls1 label:nth-child(32), #month36:checked~#controls1 label:nth-child(33), #month37:checked~#controls1 label:nth-child(34) {
+         background: #fff url('https://template.cultbay.com/content/images/prev1.png') no-repeat;
+         float: left;
+         display: none;
+         border: 1px solid #000;
+    }
+     #month1:checked~#controls1 label:nth-child(36), #month2:checked~#controls1 label:nth-child(37), #month3:checked~#controls1 label:nth-child(1), #month4:checked~#controls1 label:nth-child(2), #month5:checked~#controls1 label:nth-child(3), #month6:checked~#controls1 label:nth-child(4), #month7:checked~#controls1 label:nth-child(5), #month8:checked~#controls1 label:nth-child(6), #month9:checked~#controls1 label:nth-child(7), #month10:checked~#controls1 label:nth-child(8), #month11:checked~#controls1 label:nth-child(9), #month12:checked~#controls1 label:nth-child(10), #month13:checked~#controls1 label:nth-child(11), #month14:checked~#controls1 label:nth-child(12), #month15:checked~#controls1 label:nth-child(13), #month16:checked~#controls1 label:nth-child(14), #month17:checked~#controls1 label:nth-child(15), #month18:checked~#controls1 label:nth-child(16), #month19:checked~#controls1 label:nth-child(17), #month20:checked~#controls1 label:nth-child(18), #month21:checked~#controls1 label:nth-child(19), #month22:checked~#controls1 label:nth-child(20), #month23:checked~#controls1 label:nth-child(21), #month24:checked~#controls1 label:nth-child(22), #month25:checked~#controls1 label:nth-child(23), #month26:checked~#controls1 label:nth-child(24), #month27:checked~#controls1 label:nth-child(25), #month28:checked~#controls1 label:nth-child(26), #month29:checked~#controls1 label:nth-child(27), #month30:checked~#controls1 label:nth-child(28), #month31:checked~#controls1 label:nth-child(29), #month32:checked~#controls1 label:nth-child(30), #month33:checked~#controls1 label:nth-child(31), #month34:checked~#controls1 label:nth-child(32), #month35:checked~#controls1 label:nth-child(33), #month36:checked~#controls1 label:nth-child(34), #month37:checked~#controls1 label:nth-child(35) {
+         background: #fff url('https://template.cultbay.com/content/images/prev1.png') no-repeat;
+         float: left;
+         display: block;
+         border: 1px solid #000;
+    }
+     #month1:checked~#controls1 label:nth-child(36), #month2:checked~#controls1 label:nth-child(37) {
+         pointer-events: none;
+         cursor: default;
+    }
+     #cc-slider {
+         text-align: center;
+         max-width: 355px;
+         height: 185px;
+    }
+     #month1:checked~#cc-slides .inner {
+         cursor: default !important;
+    }
+     #month2:checked~#cc-slides .inner {
+         margin-left: -50.1%;
+    }
+     #month3:checked~#cc-slides .inner {
+         margin-left: -100.4%;
+    }
+     #month4:checked~#cc-slides .inner {
+         margin-left: -150.7%;
+    }
+     #month5:checked~#cc-slides .inner {
+         margin-left: -201%;
+    }
+     #month6:checked~#cc-slides .inner {
+         margin-left: -251.3%;
+    }
+     #month7:checked~#cc-slides .inner {
+         margin-left: -301.6%;
+    }
+     #month8:checked~#cc-slides .inner {
+         margin-left: -352%;
+    }
+     #month9:checked~#cc-slides .inner {
+         margin-left: -402.2%;
+    }
+     #month10:checked~#cc-slides .inner {
+         margin-left: -452.5%;
+    }
+     #month11:checked~#cc-slides .inner {
+         margin-left: -502.7%;
+    }
+     #month12:checked~#cc-slides .inner {
+         margin-left: -553.1%;
+    }
+     #month13:checked~#cc-slides .inner {
+         margin-left: -603.5%;
+    }
+     #month14:checked~#cc-slides .inner {
+         margin-left: -653.7%;
+    }
+     #month15:checked~#cc-slides .inner {
+         margin-left: -704%;
+    }
+     #month16:checked~#cc-slides .inner {
+         margin-left: -754.2%;
+    }
+     #month17:checked~#cc-slides .inner {
+         margin-left: -804.5%;
+    }
+     #month18:checked~#cc-slides .inner {
+         margin-left: -854.8%;
+    }
+     #month19:checked~#cc-slides .inner {
+         margin-left: -905.2%;
+    }
+     #month20:checked~#cc-slides .inner {
+         margin-left: -955.5%;
+    }
+     #month21:checked~#cc-slides .inner {
+         margin-left: -1005.7%;
+    }
+     #month22:checked~#cc-slides .inner {
+         margin-left: -1056%;
+    }
+     #month23:checked~#cc-slides .inner {
+         margin-left: -1106.2%;
+    }
+     #month24:checked~#cc-slides .inner {
+         margin-left: -1156.5%;
+    }
+     #month25:checked~#cc-slides .inner {
+         margin-left: -1207%;
+    }
+     #month26:checked~#cc-slides .inner {
+         margin-left: -1257.3%;
+    }
+     #month27:checked~#cc-slides .inner {
+         margin-left: -1307.5%;
+    }
+     #month28:checked~#cc-slides .inner {
+         margin-left: -1357.7%;
+    }
+     #month29:checked~#cc-slides .inner {
+         margin-left: -1408%;
+    }
+     #month30:checked~#cc-slides .inner {
+         margin-left: -1458.5%;
+    }
+     #month31:checked~#cc-slides .inner {
+         margin-left: -1508.7%;
+    }
+     #month32:checked~#cc-slides .inner {
+         margin-left: -1559.1%;
+    }
+     #month33:checked~#cc-slides .inner {
+         margin-left: -1609.3%;
+    }
+     #month34:checked~#cc-slides .inner {
+         margin-left: -1659.5%;
+    }
+     #month35:checked~#cc-slides .inner {
+         margin-left: -1709.8%;
+    }
+     #month36:checked~#cc-slides .inner {
+         margin-left: -1749.5%;
+    }
+     #month37:checked~#cc-slides .inner {
+         cursor: default !important;
+    }
+     #month35:checked~#controls label:nth-child(36), #month36:checked~#controls label:nth-child(37) {
+         pointer-events: none;
+         cursor: default;
+    }
+     #month34:checked~#controls label:nth-child(35) {
+         pointer-events: visible;
+         cursor: default;
+    }
+}
+ @media only screen and (min-width: 320px) and (max-width: 480px) {
+     .header-sec .hotel-detils {
+         padding-right: 0px !important;
+    }
+     .carousel-item img {
+	 height: 210px;
+    }
+     .header-sec .logo , .header-sec .hotel-detils, .header-sec .contact-sec {
+         display: block;
+         text-align: left;
+    }
+     .currentdate img {
+         margin: -8px 0px 0px 0px;
+    }
+     .currentdate {
+         text-align: center;
+         width: 192px;
+    }
+     .inner_reservecontent>h4 {
+         margin-bottom: 20px !important;
+    }
+     .news_container {
+         padding-top: 15px !important;
+    }
+     .carousel {
+         min-height: auto !important;
+         position: relative;
+    }
+}
+ @media only screen and (min-width: 481px) and (max-width: 768px) {
+     .process {
+         padding: 10px 15px 10px 15px;
+    }
+	.carousel-item img {
+		height: 280px;
+	}
+     .newicons:last-child {
+         text-align: center;
+    }
+     .newicons img, .newicons:last-child h3 {
+         float: none;
+    }
+     .newicons:nth-child(2) img {
+         padding-left: 0;
+    }
+     .newicons {
+         text-align: center;
+    }
+     .newicons h3 {
+         font-size: 16px;
+         margin-top: 5px;
+         float: none;
+         margin-left: 0px;
+         line-height: normal;
+         text-align: center;
+    }
+     .currentdate img.calender_block2 {
+         margin: 7px 0px 0px 0px;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+     #cc-slider{
+         text-align: center;
+         max-width: 530px;
+         height: 185px;
+         margin-left: -1px;
+    }
+    .header-sec .logo {
+        width: 90%;
+    }
+	.carousel-item img {
+		height: 340px;
+	}
+     .offerpics img {
+         width: auto;
+    }
+     .carousel-inner {
+         min-height: 335px;
+    }
+     .carousel1-inner {
+         min-height: 326px;
+    }
+     #tabbed .calender_block {
+         max-width: 529px;
+    }
+}
+ @media only screen and (max-width: 521px) {
+	 .carousel-indicators { 
+		display:none;
+	 }
+     .header-sec .hotel-detils {
+         float: left !important;
+         text-align: left !important;
+         clear: both;
+         padding-left: 15px !important;
+    }
+	 .header-sec .hotel-detils {
+         width: 91%;
+    }
+	.header-sec .contact-sec ul li {
+		float: left;
+	}
+    .header-sec .contact-sec {
+        width: 91%;
+        Float: left;
+        margin-left: 15px;
+        margin-top: 10px;
+        /* padding-left: 15px; */
+        clear: both;
+        margin-bottom: 10px;
+		text-align: left !important;
+    }
+}
+ @media only screen and (max-width: 713px) {
+     .header-sec .logo {
+         margin-right: 0px;
+    }
+     .process {
+         padding: 10px 15px 10px 15px;
+    }
+     .newicons:last-child {
+         text-align: center;
+    }
+     .newicons img, .newicons:last-child h3 {
+         float: none;
+    }
+     .newicons:nth-child(2) img {
+         padding-left: 0;
+    }
+     .newicons {
+         text-align: center;
+    }
+     .newicons h3 {
+       
+         font-weight: normal;
+         float: none;
+         margin-left: 0px;
+         line-height: normal;
+         text-align: center;
+    }
+     #hotel ul li {
+         width: 100%;
+    }
+     .reputize_new {
+         float: right;
+         padding-right: 15px;
+    }
+     .gallery-sec {
+         padding: 15px;
+    }
+     .cssbox a {
+         width: 48.5%;
+         margin-right: 2%;
+         margin-top: 13px !important;
+         margin-left: 0px;
+    }
+     .gallery-sec img.cssbox_thumb {
+         width: 100%;
+         height: 180px;
+    }
+     img.cssbox_thumb{
+         margin-left: 0px 
+    }
+}
+ @media only screen and (max-width: 1039px) {
+     #demo {
+         width: 100%;
+    }
+     .cssbox a {
+         pointer-events: none;
+    }
+     .header-sec .hotel-detils {
+         padding-right: 15px ;
+         padding-left: 15px;
+    }
+     .header-sec .logo {
+         padding-left: 15px;
+    }
+	.header-sec .contact-sec {
+		margin-right: 15px;
+	}
+     .tab-panels {
+         height: auto;
+         display: inline-block;
+    }
+}
+@media only screen and (max-width: 319px) {
+    #cc-slider {
+        margin-top: 76px;
+    }
+    .newicons h3 {
+        font-size: 13px;
+    }
+    .currentdate {
+        margin: 0px !important;
+        padding: 0px;
+    }
+    #tabbed .calender_block {
+        max-width: 177px;
+    }
+    #month1:checked~#controls1 label:nth-child(35), #month2:checked~#controls1 label:nth-child(36), #month3:checked~#controls1 label:nth-child(37), #month4:checked~#controls1 label:nth-child(1), #month5:checked~#controls1 label:nth-child(2), #month6:checked~#controls1 label:nth-child(3), #month7:checked~#controls1 label:nth-child(4), #month8:checked~#controls1 label:nth-child(5), #month9:checked~#controls1 label:nth-child(6), #month10:checked~#controls1 label:nth-child(7), #month11:checked~#controls1 label:nth-child(8), #month12:checked~#controls1 label:nth-child(9), #month13:checked~#controls1 label:nth-child(10), #month14:checked~#controls1 label:nth-child(11), #month15:checked~#controls1 label:nth-child(12), #month16:checked~#controls1 label:nth-child(13), #month17:checked~#controls1 label:nth-child(14), #month18:checked~#controls1 label:nth-child(15), #month19:checked~#controls1 label:nth-child(16), #month20:checked~#controls1 label:nth-child(17), #month21:checked~#controls1 label:nth-child(18), #month22:checked~#controls1 label:nth-child(19), #month23:checked~#controls1 label:nth-child(20), #month24:checked~#controls1 label:nth-child(21), #month25:checked~#controls1 label:nth-child(22), #month26:checked~#controls1 label:nth-child(23), #month27:checked~#controls1 label:nth-child(24), #month28:checked~#controls1 label:nth-child(25), #month29:checked~#controls1 label:nth-child(26), #month30:checked~#controls1 label:nth-child(27), #month31:checked~#controls1 label:nth-child(28), #month32:checked~#controls1 label:nth-child(29), #month33:checked~#controls1 label:nth-child(30), #month34:checked~#controls1 label:nth-child(31), #month35:checked~#controls1 label:nth-child(32), #month36:checked~#controls1 label:nth-child(33), #month37:checked~#controls1 label:nth-child(34) {
+        display: none !important;
+   }
+    #month1:checked~#controls label:nth-child(4), #month2:checked~#controls label:nth-child(5), #month3:checked~#controls label:nth-child(6), #month4:checked~#controls label:nth-child(7), #month5:checked~#controls label:nth-child(8), #month6:checked~#controls label:nth-child(9), #month7:checked~#controls label:nth-child(10), #month8:checked~#controls label:nth-child(11), #month9:checked~#controls label:nth-child(12), #month10:checked~#controls label:nth-child(13), #month11:checked~#controls label:nth-child(14), #month12:checked~#controls label:nth-child(15), #month13:checked~#controls label:nth-child(16), #month14:checked~#controls label:nth-child(17), #month15:checked~#controls label:nth-child(18), #month16:checked~#controls label:nth-child(19), #month17:checked~#controls label:nth-child(20), #month18:checked~#controls label:nth-child(21), #month19:checked~#controls label:nth-child(22), #month20:checked~#controls label:nth-child(23), #month21:checked~#controls label:nth-child(24), #month22:checked~#controls label:nth-child(25), #month23:checked~#controls label:nth-child(26), #month24:checked~#controls label:nth-child(27), #month25:checked~#controls label:nth-child(28), #month26:checked~#controls label:nth-child(29), #month27:checked~#controls label:nth-child(30), #month28:checked~#controls label:nth-child(31), #month29:checked~#controls label:nth-child(32), #month30:checked~#controls label:nth-child(33), #month31:checked~#controls label:nth-child(34), #month32:checked~#controls label:nth-child(35), #month33:checked~#controls label:nth-child(36), #month34:checked~#controls label:nth-child(37), #month35:checked~#controls label:nth-child(1), #month36:checked~#controls label:nth-child(2), #month37:checked~#controls label:nth-child(3) {
+        display: none !important;
+   }
+   #month1:checked~#cc-slides .inner {
+    cursor: default !important;
+}
+#month2:checked~#cc-slides .inner {
+    margin-left: -100.4%;
+}
+#month3:checked~#cc-slides .inner {
+    margin-left: -200.4%;
+}
+#month4:checked~#cc-slides .inner {
+    margin-left: -300.4%;
+}
+#month5:checked~#cc-slides .inner {
+    margin-left: -400.4%;
+}
+#month6:checked~#cc-slides .inner {
+    margin-left: -500.4%;
+}
+#month7:checked~#cc-slides .inner {
+    margin-left: -600.4%;
+}
+#month8:checked~#cc-slides .inner {
+    margin-left: -701.7%;
+}
+#month9:checked~#cc-slides .inner {
+    margin-left: -802%;
+}
+#month10:checked~#cc-slides .inner {
+    margin-left: -901.8%;
+}
+#month11:checked~#cc-slides .inner {
+    margin-left: -1002.4%;
+}
+#month12:checked~#cc-slides .inner {
+    margin-left: -1102.9%;
+}
+#month13:checked~#cc-slides .inner {
+    margin-left: -1202.8%;
+}
+#month14:checked~#cc-slides .inner {
+    margin-left: -1303.5%;
+}
+#month15:checked~#cc-slides .inner {
+    margin-left: -1403.4%;
+}
+#month16:checked~#cc-slides .inner {
+    margin-left: -1503.6%;
+}
+#month17:checked~#cc-slides .inner {
+    margin-left: -1604.6%;
+}
+#month18:checked~#cc-slides .inner {
+    margin-left: -1704.6%;
+}
+#month19:checked~#cc-slides .inner {
+    margin-left: -1804.6%;
+}
+#month20:checked~#cc-slides .inner {
+    margin-left: -1904.6%;
+}
+#month21:checked~#cc-slides .inner {
+    margin-left: -2004.6%;
+}
+#month22:checked~#cc-slides .inner {
+    margin-left: -2105.6%;
+}
+#month23:checked~#cc-slides .inner {
+    margin-left: -2205.6%;
+}
+#month24:checked~#cc-slides .inner {
+    margin-left: -2306.6%;
+}
+#month25:checked~#cc-slides .inner {
+    margin-left: -2406.5%;
+}
+#month26:checked~#cc-slides .inner {
+    margin-left: -2507.4%;
+}
+#month27:checked~#cc-slides .inner {
+    margin-left: -2607.4%;
+}
+#month28:checked~#cc-slides .inner {
+    margin-left: -2707.4%;
+}
+#month29:checked~#cc-slides .inner {
+    margin-left: -2807.4%;
+}
+#month30:checked~#cc-slides .inner {
+    margin-left: -2907.4%;
+}
+#month31:checked~#cc-slides .inner {
+    margin-left: -3008.4%;
+}
+#month32:checked~#cc-slides .inner {
+    margin-left: -3109.4%;
+}
+#month33:checked~#cc-slides .inner {
+    margin-left: -3208.4%;
+}
+#month34:checked~#cc-slides .inner {
+    margin-left: -3309.4%;
+}
+#month35:checked~#cc-slides .inner {
+    margin-left: -3410.4%;
+}
+#month36:checked~#cc-slides .inner {
+    margin-left: -3510.4%;
+}
+#month37:checked~#cc-slides .inner {
+    cursor: default !important;
+}
+#month34:checked~#controls label:nth-child(35), #month35:checked~#controls label:nth-child(36) {
+    pointer-events: visible;
+    cursor: default;
+}
+#month36:checked~#controls label:nth-child(37) {
+    pointer-events: none;
+    cursor: default;
+}
+   
+}
+ @media only screen and (min-width: 714px) and (max-width: 1039px) {
+     .process {
+         padding: 10px 15px 10px 15px;
+    }
+     .gallery-sec img.cssbox_thumb {
+         width: 100%;
+         height: 190px;
+    }
+     .gallery-sec img.cssbox_thumb:hover {
+         -webkit-transform: none;
+         -moz-transform: none;
+         -ms-transform: none;
+         -o-transform: none;
+         transform: none;
+         transform: none;
+         box-shadow: none;
+         transition: none;
+         z-index: none;
+    }
+     .cssbox a {
+         width: 31.3%;
+        /* margin-right: 1.6%;
+        */
+         margin-top: 13px !important;
+         margin-left: 1.5%;
+    }
+     .gallery-sec {
+         padding-right: 15px;
+         padding-left: 15px;
+    }
+     img.cssbox_thumb {
+         margin-left: 0px;
+    }
+}
+ @media only screen and (min-width: 1040px) {
+     .gallery-sec ul li {
+         float: left;
+         list-style: none;
+         margin-right: 15px;
+         overflow: hidden;
+    }
+     .gallery-sec ul {
+         display: inline-block;
+         margin-left: 15px;
+    }
+     .gallery-sec ul li img {
+         height: 210px;
+         width: 318.6px !important;
+    }
+     .tab-panels {
+         height: 1300px;
+    }
+}
+ 

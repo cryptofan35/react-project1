@@ -1,0 +1,52 @@
+@import "../../../styles/variables.less";
+
+.edit-room {
+  &__select-box {
+    display: flex;
+    margin-bottom: 20px;
+    & > div {
+      flex: 1;
+      &:first-child {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &__label {
+    height: 19px;
+    width: 110px;
+    color: #3f4254;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  &__amenities {
+    width: 100%;
+    max-height: 180px;
+    overflow-y: auto;
+    border-radius: 4px;
+    border: 1px solid #e3e6ee;
+    margin-bottom: 20px;
+
+    &-container {
+      width: 100%;
+      padding: 16px;
+
+      & > .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+        margin: 0;
+      }
+      & > * {
+        width: 50%;
+        line-height: 36px;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  &__footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

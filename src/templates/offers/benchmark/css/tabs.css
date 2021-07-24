@@ -1,0 +1,734 @@
+ #tabbed .cell.table.first.blue {
+     background: #6E98E3;
+}
+ #tabbed .title {
+     color: #000000;
+     font-weight: bold;
+}
+ @charset "UTF-8";
+ [class*="entypo-"]:before {
+    /*ont-family: font-family: 'Source Sans Pro', sans-serif;
+    */
+}
+ input[type="radio" i] {
+     margin: 0px 0px 0px 5px;
+}
+ #tabbed {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 0;
+     vertical-align: baseline;
+     line-height: normal;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box 
+}
+ #tabbed label {
+     cursor: pointer 
+}
+ #tabbed input[type=radio] {
+     display: none;
+     visibility: hidden;
+     opacity: 0 
+}
+ #tabbed a {
+     text-decoration: none 
+}
+ #tabbed {
+     position: relative;
+     -webkit-backface-visibility: hidden;
+}
+ #tabbed .wrapper {
+     background: #fff;
+     position: relative;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: left 
+}
+ #tabbed .wrapper>div {
+     height: auto;
+     width: 100%;
+     background: #ffffff;
+}
+ #tabbed .innercontent {
+     background: #ffffff;
+     padding: 25px 15px 15px 15px;
+     border-left: 1px solid #f7f6f6;
+     border-right: 1px solid #f7f6f6;
+}
+ #tabbed .innercontent1 {
+     background: #ffffff;
+     padding: 0 15px 20px;
+     border-left: 1px solid #f7f6f6;
+     border-right: 1px solid #f7f6f6;
+}
+ #tabbed .row {
+     display: block;
+     float: left;
+     width: 100%;
+     clear: both 
+}
+ #tabbed .cell {
+     display: inline-block;
+     float: left;
+     position: relative;
+}
+ #tabbed .cell:last-child {
+     margin-right: 0 
+}
+ #tabbed .cell.w-100 {
+     width: 100% 
+}
+ #tabbed .cell.table.first {
+     padding-left: 10px 
+}
+ #tabbed .cell.table.first.black {
+     background: #333 
+}
+ #tabbed .cell.table.first p {
+     color: #fff 
+}
+ #tabbed .cell.table.exposed p {
+     color: red 
+}
+ #tabbed .clrfx {
+     display: block;
+     float: left;
+     width: 100%;
+     height: auto;
+     clear: both;
+     content: "" 
+}
+ #tabbed .title.inline {
+     font-size: 16px;
+     text-transform: uppercase;
+     display: block;
+     padding-bottom: 6px 
+}
+ #tabbed .title.table {
+     font-size: 14px;
+     color: #333;
+     padding: 6px 0;
+     border-bottom: solid 2px #f0f0f0 
+}
+ #tabbed .title.table.headline {
+     text-transform: uppercase;
+     color: #fff;
+     border-bottom: solid 2px #fff 
+}
+ #tabbed .title.icon:before {
+     padding-right: 10px;
+     color: #bbb 
+}
+ #tabbed p {
+     display: block;
+     line-height: 1.8;
+     font-size: 14px;
+}
+ #tabbed p b {
+     color: #555;
+     font-weight: bold;
+}
+ #tabbed .button {
+     color: #fff;
+     font-size: 16px;
+     padding: 14px;
+     text-align: center;
+     display: inline-block;
+     width: 100%;
+     cursor: pointer 
+}
+ #tabbed .button:hover {
+     color: #fff 
+}
+ #tabbed .button:before {
+     float: right 
+}
+ #tabbed .button.black {
+     background: #333 
+}
+ #tabbed ul {
+     padding-left: 0px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+ #tabbed ul li img {
+     padding-right: 10px;
+}
+ #tabbed ul li:before {
+     display: inline-block;
+     margin-right: 6px;
+     text-align: left;
+     font-weight: 400;
+     color: #bbb;
+     list-style-type: disc;
+}
+ .cell .avail_color {
+     margin-bottom: 12px !important;
+}
+ #tabbed .map-wrap p {
+     display: block;
+     clear: both;
+     font-size: 13px;
+     color: #999;
+     padding-bottom: 4px 
+}
+ #tabbed input, #tabbed select, #tabbed textarea {
+     display: inline-block;
+     width: 100%;
+     float: left;
+     border-bottom: 1px solid #ddd;
+     padding: 12px 20px 10px 10px;
+     font-size: 16px;
+     color: #333 
+}
+ #tabbed input:focus, #tabbed input:hover, #tabbed select:focus, #tabbed select:hover, #tabbed textarea:focus, #tabbed textarea:hover {
+     border-bottom-color: #333;
+     outline: 0 
+}
+ #tabbed textarea {
+     resize: none;
+     overflow: hidden;
+     height: 46px 
+}
+ #tabbed textarea:focus {
+     height: 140px 
+}
+ #tabbed input.reset {
+     border: 0;
+     outline: 0;
+     font-size: 12px;
+     padding: 0;
+     cursor: pointer;
+     text-align: right;
+     background: #fff 
+}
+ #tabbed input.reset:hover {
+     color: #414566;
+}
+ #tabbed select {
+     background: 0 0;
+     background-color: rgba(0, 0, 0, 0);
+     height: auto;
+     padding-left: 8px;
+     z-index: 2;
+     cursor: pointer;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none 
+}
+ #arrow-select, #arrow-select-svg {
+     background: #fff url(img/select.png) no-repeat 0 11px;
+     width: 44px;
+     height: 35px;
+     position: absolute;
+     right: 0;
+     top: 1px;
+     pointer-events: none;
+     vertical-align: middle;
+     outline: 0;
+     border: 0;
+     z-index: 3 
+}
+ #tabbed select:focus~#arrow-select, #tabbed select:focus~#arrow-select-svg, #tabbed select:hover~#arrow-select, #tabbed select:hover~#arrow-select-svg {
+     background: #fff url(img/select-focus.png) no-repeat 0 11px 
+}
+ @media screen and (-webkit-min-device-pixel-ratio: 0) {
+     #arrow-select-svg {
+         display: none 
+    }
+}
+ #arrow-select, x:-o-prefocus {
+     display: none 
+}
+ #tabbed input::-webkit-input-placeholder, #tabbed textarea::-webkit-input-placeholder {
+     color: #999 
+}
+ #tabbed input:focus::-webkit-input-placeholder, #tabbed textarea:focus::-webkit-input-placeholder {
+     color: #ccc 
+}
+ #tabbed input:-moz-placeholder, #tabbed textarea:-moz-placeholder {
+     color: #999 
+}
+ #tabbed input:focus:-moz-placeholder, #tabbed textarea:focus:-moz-placeholder {
+     color: #ccc 
+}
+ #tabbed input::-moz-placeholder, #tabbed textarea::-moz-placeholder {
+     color: #999 
+}
+ #tabbed input:focus::-moz-placeholder, #tabbed textarea:focus::-moz-placeholder {
+     color: #ccc 
+}
+ #tabbed input:-ms-input-placeholder, #tabbed textarea:-ms-input-placeholder {
+     color: #999 
+}
+ #tabbed input:focus:-ms-input-placeholder, #tabbed textarea:focus:-ms-input-placeholder {
+     color: #ccc 
+}
+ #tabbed .ie9-placeholder {
+     color: #999!important 
+}
+ #tabbed .ie9-placeholder:focus {
+     color: #ccc!important 
+}
+ #tabbed .wrapper.shadow, #tabbed input:checked+label.tabs.shadow {
+     border-top: 0px solid #ddd;
+     border-bottom: 0px solid #ddd;
+     font-size: 16px;
+}
+/*tabbed css end*/
+ #demo {
+     margin: 0 auto;
+     width: 1024px;
+     letter-spacing: 0.3;
+}
+ .tabs.shadow.dropbtn>img {
+     display: none;
+}
+ .arrow {
+     background-image: url(https://template.cultbay.com/content/images/arow.png) no-repeat;
+     width: 12px;
+     height: auto;
+}
+/****** footer tabs css****/
+ .tabset>input[type="radio"] {
+     position: absolute;
+     left: -200vw;
+}
+ .tabset .tab-panel {
+     display: none;
+     text-align: left;
+     padding: 0 15px 15px 15px;
+     font-size: 15px;
+}
+ .tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child, .tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2), .tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3), .tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4), .tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5), .tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
+     display: block;
+}
+/*Styling*/
+ .tabset>label {
+     position: relative;
+     display: inline-block;
+     padding: 10px 55px 10px;
+     border: 1px solid transparent;
+     border-bottom: 0;
+     cursor: pointer;
+     font-weight: 600;
+     background: #1ABB9C;
+     color: #fff;
+     margin-right: 7px;
+}
+ .tabset>label::after {
+     content: "";
+     position: absolute;
+     left: 15px;
+     bottom: 10px;
+     height: 4px;
+     background: #8d8d8d;
+}
+ .tabset>label:hover::after, .tabset>input:focus+label::after, .tabset>input:checked+label::after {
+     background: #06c;
+}
+ .tabset>input:checked+label {
+     border-top: 2px solid #1ABB9C;
+     border-left: 1px solid #1ABB9C;
+     border-right: 1px solid #1ABB9C;
+     border-bottom: 1px solid #ffffff;
+     margin-bottom: -1px;
+     background: #ffffff;
+     color: #414566;
+}
+ .tab-panel {
+     padding: 30px 0;
+     border-top: 1px solid #1ABB9C;
+     line-height: 23px !important;
+}
+ .footer-tabs {
+     border-right: 1px solid #ccc;
+}
+ .tab-panels {
+     border-left: 1px solid #tabbed .cell.table.first.blue {
+     background: #6E98E3;
+}
+ #tabbed .title {
+     color: #000000;
+     font-weight: bold;
+}
+ @charset "UTF-8";
+ [class*="entypo-"]:before {
+    /*ont-family: font-family: 'Source Sans Pro', sans-serif;
+    */
+}
+ input[type="radio" i] {
+     margin: 0px 0px 0px 5px;
+}
+ #tabbed {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 0;
+     vertical-align: baseline;
+     line-height: normal;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box 
+}
+ #tabbed label {
+     cursor: pointer 
+}
+ #tabbed input[type=radio] {
+     display: none;
+     visibility: hidden;
+     opacity: 0 
+}
+ #tabbed a {
+     text-decoration: none 
+}
+ #tabbed {
+     position: relative;
+     -webkit-backface-visibility: hidden;
+}
+ #tabbed .wrapper {
+     background: #fff;
+     position: relative;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: left 
+}
+ #tabbed .wrapper>div {
+     height: auto;
+     width: 100%;
+     background: #ffffff;
+}
+ #tabbed .innercontent {
+     background: #ffffff;
+     padding: 25px 15px 15px 15px;
+     /*border-left: 1px solid #ccc;
+     border-right: 1px solid #ccc;*/
+}
+ #tabbed .innercontent1 {
+     background: #ffffff;
+     padding: 0 15px 20px;
+     border-left: 1px solid #f7f6f6;
+     border-right: 1px solid #f7f6f6;
+}
+ #tabbed .row {
+     display: block;
+     float: left;
+     width: 100%;
+     clear: both 
+}
+ #tabbed .cell {
+     display: inline-block;
+     float: left;
+     position: relative;
+}
+ #tabbed .cell:last-child {
+     margin-right: 0 
+}
+ #tabbed .cell.w-100 {
+     width: 100% 
+}
+ #tabbed .cell.table.first {
+     padding-left: 10px 
+}
+ #tabbed .cell.table.first.black {
+     background: #333 
+}
+ #tabbed .cell.table.first p {
+     color: #fff 
+}
+ #tabbed .cell.table.exposed p {
+     color: red 
+}
+ #tabbed .clrfx {
+     display: block;
+     float: left;
+     width: 100%;
+     height: auto;
+     clear: both;
+     content: "" 
+}
+ #tabbed .title.inline {
+     font-size: 16px;
+     text-transform: uppercase;
+     display: block;
+     padding-bottom: 6px 
+}
+ #tabbed .title.table {
+     font-size: 14px;
+     color: #333;
+     padding: 6px 0;
+     border-bottom: solid 2px #f0f0f0 
+}
+ #tabbed .title.table.headline {
+     text-transform: uppercase;
+     color: #fff;
+     border-bottom: solid 2px #fff 
+}
+ #tabbed .title.icon:before {
+     padding-right: 10px;
+     color: #bbb 
+}
+ #tabbed p {
+     display: block;
+     line-height: 1.8;
+     font-size: 14px;
+}
+ #tabbed p b {
+     color: #555;
+     font-weight: bold;
+}
+ #tabbed .button {
+     color: #fff;
+     font-size: 16px;
+     padding: 14px;
+     text-align: center;
+     display: inline-block;
+     width: 100%;
+     cursor: pointer 
+}
+ #tabbed .button:hover {
+     color: #fff 
+}
+ #tabbed .button:before {
+     float: right 
+}
+ #tabbed .button.black {
+     background: #333 
+}
+ #tabbed ul {
+     padding-left: 0px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+ #tabbed ul li img {
+     padding-right: 10px;
+}
+ #tabbed ul li:before {
+     display: inline-block;
+     margin-right: 6px;
+     text-align: left;
+     font-weight: 400;
+     color: #bbb;
+     list-style-type: disc;
+}
+ .cell .avail_color {
+     margin-bottom: 12px !important;
+}
+ #tabbed .map-wrap p {
+     display: block;
+     clear: both;
+     font-size: 13px;
+     color: #999;
+     padding-bottom: 4px 
+}
+ #tabbed input, #tabbed select, #tabbed textarea {
+     display: inline-block;
+     width: 100%;
+     float: left;
+     border-bottom: 1px solid #ddd;
+     padding: 12px 20px 10px 10px;
+     font-size: 16px;
+     color: #333 
+}
+ #tabbed input:focus, #tabbed input:hover, #tabbed select:focus, #tabbed select:hover, #tabbed textarea:focus, #tabbed textarea:hover {
+     border-bottom-color: #333;
+     outline: 0 
+}
+ #tabbed textarea {
+     resize: none;
+     overflow: hidden;
+     height: 46px 
+}
+ #tabbed textarea:focus {
+     height: 140px 
+}
+ #tabbed input.reset {
+     border: 0;
+     outline: 0;
+     font-size: 12px;
+     padding: 0;
+     cursor: pointer;
+     text-align: right;
+     background: #fff 
+}
+ #tabbed input.reset:hover {
+     color: #414566;
+}
+ #tabbed select {
+     background: 0 0;
+     background-color: rgba(0, 0, 0, 0);
+     height: auto;
+     padding-left: 8px;
+     z-index: 2;
+     cursor: pointer;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none 
+}
+ #arrow-select, #arrow-select-svg {
+     background: #fff url(img/select.png) no-repeat 0 11px;
+     width: 44px;
+     height: 35px;
+     position: absolute;
+     right: 0;
+     top: 1px;
+     pointer-events: none;
+     vertical-align: middle;
+     outline: 0;
+     border: 0;
+     z-index: 3 
+}
+ #tabbed select:focus~#arrow-select, #tabbed select:focus~#arrow-select-svg, #tabbed select:hover~#arrow-select, #tabbed select:hover~#arrow-select-svg {
+     background: #fff url(img/select-focus.png) no-repeat 0 11px 
+}
+ @media screen and (-webkit-min-device-pixel-ratio: 0) {
+     #arrow-select-svg {
+         display: none 
+    }
+}
+ #arrow-select, x:-o-prefocus {
+     display: none 
+}
+ #tabbed input::-webkit-input-placeholder, #tabbed textarea::-webkit-input-placeholder {
+     color: #999 
+}
+ #tabbed input:focus::-webkit-input-placeholder, #tabbed textarea:focus::-webkit-input-placeholder {
+     color: #ccc 
+}
+ #tabbed input:-moz-placeholder, #tabbed textarea:-moz-placeholder {
+     color: #999 
+}
+ #tabbed input:focus:-moz-placeholder, #tabbed textarea:focus:-moz-placeholder {
+     color: #ccc 
+}
+ #tabbed input::-moz-placeholder, #tabbed textarea::-moz-placeholder {
+     color: #999 
+}
+ #tabbed input:focus::-moz-placeholder, #tabbed textarea:focus::-moz-placeholder {
+     color: #ccc 
+}
+ #tabbed input:-ms-input-placeholder, #tabbed textarea:-ms-input-placeholder {
+     color: #999 
+}
+ #tabbed input:focus:-ms-input-placeholder, #tabbed textarea:focus:-ms-input-placeholder {
+     color: #ccc 
+}
+ #tabbed .ie9-placeholder {
+     color: #999!important 
+}
+ #tabbed .ie9-placeholder:focus {
+     color: #ccc!important 
+}
+ #tabbed .wrapper.shadow, #tabbed input:checked+label.tabs.shadow {
+     border-top: 0px solid #ddd;
+     border-bottom: 0px solid #ddd;
+     font-size: 16px;
+}
+/*tabbed css end*/
+ #demo {
+     margin: 0 auto;
+     width: 1024px;
+     letter-spacing: 0.3;
+}
+ .tabs.shadow.dropbtn>img {
+     display: none;
+}
+ .arrow {
+     background-image: url(https://template.cultbay.com/content/images/arow.png) no-repeat;
+     width: 12px;
+     height: auto;
+}
+/****** footer tabs css****/
+ .tabset>input[type="radio"] {
+     position: absolute;
+     left: -200vw;
+}
+ .tabset .tab-panel {
+     display: none;
+     text-align: left;
+     padding: 0 15px 15px 15px;
+     font-size: 15px;
+}
+ .tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child, .tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2), .tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3), .tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4), .tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5), .tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
+     display: block;
+}
+/*Styling*/
+ .tabset>label {
+     position: relative;
+     display: inline-block;
+     padding: 10px 55px 10px;
+     border: 1px solid transparent;
+     border-bottom: 0;
+     cursor: pointer;
+     font-weight: 600;
+     background: #1ABB9C;
+     color: #fff;
+     margin-right: 7px;
+}
+ .tabset>label::after {
+     content: "";
+     position: absolute;
+     left: 15px;
+     bottom: 10px;
+     height: 4px;
+     background: #8d8d8d;
+}
+ .tabset>label:hover::after, .tabset>input:focus+label::after, .tabset>input:checked+label::after {
+     background: #06c;
+}
+ .tabset>input:checked+label {
+     border-top: 2px solid #1ABB9C;
+     border-left: 1px solid #1ABB9C;
+     border-right: 1px solid #1ABB9C;
+     border-bottom: 1px solid #ffffff;
+     margin-bottom: -1px;
+     background: #ffffff;
+     color: #414566;
+}
+ .tab-panel {
+     padding: 30px 0;
+     border-top: 1px solid #1ABB9C;
+     line-height: 23px !important;
+}
+ .footer-tabs {
+     border-right: 1px solid #ccc;
+}
+ .tab-panels {
+     border-left: 1px solid #1ABB9C;
+     border-right: 1px solid #1ABB9C;
+     border-bottom: 1px solid #1ABB9C;
+     text-align: left;
+     background: #ffffff;
+     padding-bottom: 20px;
+}
+ .tab-4 {
+     width: 100%;
+     display:flex;
+}
+ .tab-4 .innercontent {
+     width: 100%;
+}
+;
+     border-right: 1px solid #f7f6f6;
+     border-bottom: 1px solid #f7f6f6;
+     text-align: left;
+     background: #ffffff;
+     padding-bottom: 20px;
+}
+ .tab-4 {
+     width: 100%;
+     display:flex;
+}
+ .tab-4 .innercontent {
+     width: 100%;
+}

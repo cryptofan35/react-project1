@@ -1,0 +1,48 @@
+.Accordion {
+  margin-bottom: 37px;
+
+  &-dropdown {
+    left: 5px !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: all .3s ease;
+
+    .ant-collapse-item-active > & {
+      transform: rotate(90deg);
+    }
+  }
+
+  .ant-collapse {
+    border: none;
+    margin-bottom: 30px;
+
+    & > .ant-collapse-item {
+      border-bottom: none;
+    }
+
+    &-content {
+      border: none;
+    }
+
+    &-item {
+
+      &-active {
+        .Accordion-dropdown {
+          transform: translate(0, -50%) rotate(90deg) !important;
+        }
+      }
+    }
+
+    & > .ant-collapse-item > .ant-collapse-header {
+      font: 500 13px Poppins;
+      color: #3F4254;
+      padding-left: 23px;
+    }
+
+    input {
+      color: #1C2833;
+      padding: 14px 12px;
+    }
+  }
+}

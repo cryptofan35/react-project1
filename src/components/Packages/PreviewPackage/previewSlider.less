@@ -1,0 +1,60 @@
+.slider-container  {
+  & * { /* FIX FOR SLICK SLIDER INSIDE FLEXBOX CONTAINER */
+    min-height: 0;
+    min-width: 0;
+  }
+
+  & .slick-slider {
+    max-width: 480px;
+    width: 100%;
+
+    & .slick-next {
+      right: -25px;
+
+      &:before {
+        content: '›';
+        position: absolute;
+        top: -12px;
+        left: 6px;
+        font-size: 30px;
+        color: #999;
+      }
+    }
+
+    & .slick-prev {
+      left: -25px;
+
+      &:before {
+        content: '‹';
+        position: absolute;
+        top: -12px;
+        left: 6px;
+        font-size: 30px;
+        color: #999;
+      }
+    }
+  }
+
+  & .nav-slider {
+    width: 432px;
+    margin:0 auto;
+
+    & .slider-image {
+      width: auto;
+      height: 108px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      object-fit: cover;
+    }
+  }
+
+  & .slider-view .slick-slide {
+    width: 480px !important;
+  }
+
+  & .slider-image {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="11" cy="11" r="9.5" stroke="#1C2833"/>
+  <circle cx="11" cy="11" r="4.5" stroke="#1C2833"/>
+  <rect x="9.5" y="14.5" width="3" height="7" rx="0.5" stroke="#1C2833"/>
+  <rect x="14.5" y="12.5" width="3" height="7" rx="0.5" transform="rotate(-90 14.5 12.5)" stroke="#1C2833"/>
+  <rect x="0.5" y="12.5" width="3" height="7" rx="0.5" transform="rotate(-90 0.5 12.5)" stroke="#1C2833"/>
+  <rect x="9.5" y="0.5" width="3" height="7" rx="0.5" stroke="#1C2833"/>
+</svg>
